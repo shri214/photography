@@ -1,0 +1,74 @@
+.press-container {
+  .pressGrid {
+    width: 1200px;
+    display: block;
+    margin: auto;
+    .press-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 70px 40px;
+      .press-img-desc {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 6%;
+        .fb {
+          flex-basis: 47%;
+          .press-desc {
+            width: 390px;
+            height: 552px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .press-text1 {
+              .date {
+                font-family: aRegular;
+                font-size: 15px;
+                line-height: 23px;
+                letter-spacing: 2px;
+                margin-bottom: 15px;
+              }
+              .lines {
+                margin: 0;
+              }
+              .press-heading {
+                margin-top: 15px;
+                a {
+                  text-decoration: none;
+                  color: black;
+                  font-family: kenjo I;
+                  font-size: 29px;
+                  line-height: 38px;
+                  letter-spacing: 2px;
+                }
+              }
+            }
+            .press-text2 {
+              p {
+                font-family: aRegular;
+                font-size: 15px;
+                line-height: 25px;
+              }
+              span {
+                color: #668ea3;
+                font-size: 2rem;
+              }
+            }
+          }
+
+          .press-img {
+            a {
+              img {
+                width: 368px;
+                height: 552px;
+                object-fit: cover;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

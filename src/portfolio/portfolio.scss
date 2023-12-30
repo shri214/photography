@@ -1,0 +1,35 @@
+.portfolio {
+  .quotes {
+    width: 1200px;
+    display: block;
+    margin: auto;
+    position: relative;
+    .quotes1 {
+      width: 60%;
+      display: block;
+      margin: auto;
+      text-align: center;
+      transition: all 0.3s ease-in-out;
+      .quotes1-text {
+        font-family: gustera;
+        font-size: 6rem;
+        line-height: 100px;
+        letter-spacing: 3px;
+        color: #e0ebe9;
+        transform: rotate(-3deg);
+      }
+
+      .author {
+        margin-top: 70px;
+        font-size: 14px;
+        font-family: "aRegular";
+        line-height: 17px;
+      }
+    }
+  }
+}
+
+.hide {
+    pointer-events: none !important;
+    display: none !important;
+}

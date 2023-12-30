@@ -1,0 +1,43 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  .desc {
+    width: min(200px, 50vw);
+    font-size: 0.7rem;
+    font-family: brand;
+    line-height: 2;
+    letter-spacing: 2px;
+  }
+  .social-links {
+    font-size: 1.2rem;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    a {
+      color: #cfdfdd;
+      text-decoration: none;
+      .inquire {
+        text-transform: capitalize;
+        font-family: cursive;
+        color: #000;
+      }
+    }
+    .social-icons{
+      font-size: 1.2rem;
+      color: #cfdfdd;
+    }
+    .contacts{
+      transform: skewX(-30deg);
+    }
+    
+  }
+  img {
+    height: 100px;
+  }
+  .ml{
+    margin-left: 130px;
+    height: 200px;
+  }
+}

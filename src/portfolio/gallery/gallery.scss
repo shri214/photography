@@ -1,0 +1,60 @@
+.galleryGrid {
+  width: 1200px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  .galleryHeading{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+    .heading{
+        font-size: 26px;
+        font-family: kenjo I;
+        line-height: 32px;
+        letter-spacing: 4px;
+    }
+    .line{
+        width: 30px;
+        border: 1px solid #DEDFDE;
+        text-align: center;
+        margin: 25px 0px;
+    }
+    .desc{
+        font-size: 13px;
+        font-family: aRegular;
+        line-height: 23px;
+        letter-spacing: 1px;
+        text-align: center;
+        cursor: pointer;
+        a{
+            color: #000;
+            text-decoration: none;
+        }
+    }
+  }
+  .photoGrid {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start ;
+    align-items: self-start;
+    margin: auto;
+    gap: 6%;
+    .grid-left, .grid-right{
+      flex-basis: 47%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: flex-start;
+    }
+    .grid-right{
+      align-items: flex-start;
+    }
+  }
+}
+
+

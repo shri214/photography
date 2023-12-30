@@ -1,0 +1,92 @@
+.photo-grid {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: self-start;
+    width: 1200px;
+    margin: auto;
+    .left-grid {
+      flex-basis: 45%;
+      display: flex;
+      flex-flow: column;
+      justify-content: flex-start;
+      align-items: flex-end;
+      .left-grid-img-1 {
+        width: 442px;
+        height: 615px;
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+      .left-grid-img-2 {
+        width: 364px;
+        height: 483px;
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          object-position: left;
+        }
+      }
+    }
+
+    .right-grid {
+      flex-basis: 45%;
+      display: flex;
+      flex-flow: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      .grid-desc {
+        width: 350px;
+        display: block;
+        margin: auto;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        p {
+          text-align: center;
+          letter-spacing: 1.5px;
+          width: 100%;
+          line-height: 1.7;
+        }
+      }
+      .right-grid-img-1 {
+        width: 479px;
+        height: 356px;
+
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          object-position: right;
+        }
+      }
+      .right-grid-img-2 {
+        width: 377px;
+        height: 495px;
+
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          object-position: right;
+        }
+      }
+    }
+  }
+  .grid-img {
+    margin-bottom: 50px;
+  }
+  .hoverEffect:hover {
+    opacity: 0.8;
+    transition: all 0.5s;
+  }
+  
+  .lines {
+    width: 35px;
+    border: 1px solid #dedfde;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+  }

@@ -1,0 +1,365 @@
+.about {
+  //poster
+  .poster {
+    position: relative;
+    height: 88vh;
+    width: 100%;
+    .poster-img {
+      height: inherit;
+      width: inherit;
+      object-fit: cover;
+    }
+    .black-layer {
+      position: absolute;
+      height: inherit;
+      width: inherit;
+      top: 0px;
+      left: 0;
+      background-color: black;
+      opacity: 0.5;
+      color: #fff;
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      justify-content: center;
+      .poster-desc {
+        width: 1200px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .about-us {
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+      }
+      .about-text-1 {
+        transform: scale(1, 1) rotate(-3deg);
+        margin-bottom: 50px;
+        p {
+          font-size: 100px;
+          line-height: 110px;
+          font-family: gustera;
+          letter-spacing: 14px;
+        }
+      }
+      .about-text-2 {
+        width: 400px;
+        p {
+          line-height: 22px;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  //About us css
+  .AboutUs {
+    background-color: #cfe0dd;
+    padding: 50px 0px;
+    display: flex;
+    flex-flow: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    .AboutUs-1-container {
+      width: 1200px;
+      display: flex;
+      flex-flow: row;
+      align-items: flex-end;
+      justify-content: center;
+      margin: auto;
+
+      .AboutUs-1-container-img {
+        width: 375px;
+        height: 512px;
+        flex-basis: 38%;
+        img {
+          height: inherit;
+          width: inherit;
+        }
+      }
+      .AboutUs-1-container-img-2 {
+        width: 464px;
+        height: 337px;
+        flex-basis: 38%;
+      }
+      .AboutUs-1-container-desc {
+        flex-basis: 38%;
+        width: 375px;
+        .about-text-3 {
+          font-size: 13px;
+          line-height: 23px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          margin-bottom: 20px;
+          font-family: aRegular;
+          font-weight: 600;
+        }
+        .about-text-4 {
+          p {
+            font-size: 40px;
+            line-height: 60px;
+            font-family: Kenjo I;
+            letter-spacing: 5px;
+          }
+        }
+        .lines {
+          width: 30px;
+          border: 1px solid #b5c5c1;
+          margin-bottom: 20px;
+        }
+        .about-text-5 {
+          width: 80%;
+          p {
+            font-size: 13px;
+            line-height: 23px;
+          }
+        }
+      }
+
+      .AboutUs-1-container-desc-2 {
+        flex-basis: 38%;
+        height: 337px;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: flex-start;
+
+        .container-desc-2 {
+          display: flex;
+          flex-flow: row;
+          align-items: center;
+          justify-content: center;
+          width: 390px;
+          p {
+            font-family: kenjo I;
+            font-size: 28px;
+            line-height: 36px;
+          }
+        }
+      }
+    }
+  }
+
+  //about-desc-3
+
+  .about-desc-3 {
+    height: 440px;
+    .outer-div {
+      width: 1200px;
+      display: block;
+      margin: auto;
+      height: inherit;
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      justify-content: center;
+      .inner-div {
+        width: 65%;
+        height: inherit;
+        transform: rotate(-3deg);
+        p {
+          font-family: gustera;
+          font-weight: 200;
+          opacity: 0.7;
+          font-size: 6rem;
+          letter-spacing: 3px;
+          line-height: 100px;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  //Mission and Philosophy
+
+  .mission-philosophy {
+    background-color: #cfe0dd;
+
+    .mission-container {
+      width: 1200px;
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      gap: 6%;
+      margin: auto;
+      padding: 40px;
+      position: relative;
+      .mission-inner-container {
+        flex-basis: 47%;
+
+        //image container
+
+        .mission-image-container {
+          .mission-image-1 {
+            height: 380px;
+            width: 300px;
+            position: absolute;
+            top: 115px;
+            left: 304px;
+            img {
+              height: inherit;
+              width: inherit;
+              object-fit: cover;
+            }
+          }
+          .mission-image-2 {
+            height: 150px;
+            width: 150px;
+            position: absolute;
+            bottom: 326px;
+            left: 344px;
+            img {
+              height: inherit;
+              width: inherit;
+              object-fit: cover;
+            }
+          }
+
+          .mission-image-3 {
+            height: 190px;
+            width: 150px;
+            position: absolute;
+            top: 224px;
+            left: 105px;
+            img {
+              height: inherit;
+              width: inherit;
+              object-fit: cover;
+            }
+          }
+          .insta {
+            width: 220px;
+            height: 60px;
+            background-color: #f3e2d0;
+            font-family: aRegular;
+            font-size: 12px;
+            line-height: 18px;
+            letter-spacing: 1px;
+            border: none;
+            position: absolute;
+            bottom: 155px;
+            left: 300px;
+          }
+        }
+        //description
+        .mission-desc {
+          width: 70%;
+          .mission-text-0 {
+            p {
+              font-size: 2rem;
+              font-family: kenjo I;
+              line-height: 45px;
+            }
+            .lines {
+              width: 30px;
+              border: 1px solid #b5c5c1;
+              margin: 20px 0;
+            }
+          }
+          .mission-text-1 {
+            p {
+              font-family: aRegular;
+              font-size: 16px;
+              line-height: 25px;
+              font-weight: 500;
+            }
+          }
+          .mission-text-2 {
+            p {
+              font-family: gustera;
+              font-size: 3rem;
+              letter-spacing: 3px;
+              line-height: 70px;
+            }
+          }
+          .mission-text-3 {
+            margin-top: 20px;
+            div {
+              margin: 10px 0px;
+              .mission-text-3-heading {
+                font-size: 15px;
+                font-family: kenjo I;
+                line-height: 27px;
+                font-weight: 400;
+              }
+              .mission-text-3-desc {
+                font-family: aRegular;
+                font-size: 14px;
+                line-height: 22px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .poster-2 {
+    height: 80vh;
+    .poster-2-desc {
+      width: 1200px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      transform: translate(-50%, -50%);
+      .poster-2-desc-2 {
+        height: 300px;
+        width: 46%;
+        color: #fff;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        .poster-2-text-1 {
+          transform: rotate(-3deg);
+          p {
+            font-family: gustera;
+            font-size: 3rem;
+            line-height: 120px;
+            letter-spacing: 4px;
+          }
+        }
+        .poster-2-text-2 {
+          margin-top: 20px;
+          a {
+            text-decoration: none;
+            color: #fff;
+            p {
+              font-family: kenjo I;
+              font-size: 25px;
+              line-height: 38px;
+              text-align: center;
+            }
+          }
+        }
+        .poster-2-text-3 {
+          margin-top: 20px;
+          a {
+            text-decoration: none;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            p {
+              font-family: aRegular;
+              font-size: 11px;
+              line-height: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.ml {
+  margin-left: 10px;
+}

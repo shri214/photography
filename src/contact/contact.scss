@@ -1,0 +1,30 @@
+.contact {
+  .contact-container {
+    width: 1200px;
+    display: block;
+    margin: auto;
+    border: 1px solid red;
+    .contact-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: self-start;
+      gap: 6%;
+      .contact-container-fb {
+        flex-basis: 47%;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-end;
+        .left-box {
+          height: 669px;
+          width: 444px !important;
+          border: 1px solid coral;
+        }
+      }
+      .left-container {
+      }
+    }
+  }
+}

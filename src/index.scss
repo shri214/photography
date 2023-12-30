@@ -1,0 +1,22 @@
+.navbar-root-container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  .navbar-container {
+    background-color: #cfdfdd;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    
+    .link {
+      text-decoration: none;
+      color: #212720;
+      font-size: 0.8rem;
+    }
+  }
+  .hero {
+    margin: 0;
+  }
+}

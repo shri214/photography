@@ -1,0 +1,114 @@
+.home-press-container {
+  display: block;
+  margin: auto;
+  width: 1200px;
+  .home-press-containers {
+    display: flex;
+    flex-flow: row;
+    align-items: self-start;
+    justify-content: flex-end;
+    gap: 4%;
+  }
+  .home-press-container-img {
+    flex-basis: 48%;
+    text-align: end;
+    img {
+      height: 573px;
+      width: 410px;
+      object-fit: cover;
+    }
+  }
+
+  .container-img {
+    text-align: center;
+    .container-img-2 {
+      width: 350px;
+      height: 465px;
+      text-align: start;
+    }
+  }
+
+  .home-press-container-desc {
+    flex-basis: 48%;
+    color: #fff;
+    height: 573px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+
+    .home-press-text-1 {
+      transform: skew(40deg, -7deg);
+      p {
+        font-size: 3rem;
+        font-weight: 300;
+        font-family: cursive;
+      }
+    }
+
+    .home-press-text-2 {
+      span {
+        letter-spacing: 2px;
+        font-family: sans-serif;
+      }
+    }
+
+    .home-press-text-3 {
+      width: 410px;
+      span {
+        font-size: 36px;
+        line-height: 47px;
+        font-family: sans-serif;
+        letter-spacing: 4px;
+        font-weight: 400;
+      }
+    }
+
+    .home-press-text-4 {
+      width: 350px;
+      p {
+        font-family: sans-serif;
+        line-height: 20px;
+      }
+    }
+
+    .underline {
+      width: 50px;
+      border: 1px solid white;
+      margin-left: 50px;
+      cursor: pointer;
+    }
+  }
+
+  .container-desc2 {
+    height: 465px;
+    width: 350px;
+    flex-basis: 40%;
+  }
+
+
+  .wantMore{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    p{
+      color: #fff;
+      font-size: 42px;
+      line-height: 63px;
+      font-family: Muster SSi;
+      font-weight: 300;
+    }
+    .btn{
+      width: 185px;
+      height: 50px;
+      color: #fff;
+      text-align: center;
+      background-color: inherit;
+      border: 1px solid #fff;
+      margin-top: 20px;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+  }
+}
+.ml {
+  margin-left: 50px;
+}

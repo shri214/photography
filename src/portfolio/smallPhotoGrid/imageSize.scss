@@ -1,0 +1,75 @@
+.imageSize {
+  width: 1200px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  .small-container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    .image-container {
+      display: flex;
+      gap: 10%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-end;
+      .smaller {
+        width: 212px;
+        height: 261px;
+        position: relative;
+        cursor: pointer;
+      }
+      .bigger {
+        width: 233px;
+        height: 286px;
+        position: relative;
+        cursor: pointer;
+      }
+    }
+
+    .small-container-desc {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      h1 {
+        font-family: kenjo I;
+        font-size: 2rem;
+        font-weight: 200;
+        line-height: 50px;
+        letter-spacing: 1px;
+      }
+      .line {
+        width: 30px;
+        border: 1px solid #dedede;
+        margin: 20px 0;
+      }
+      p {
+        font-size: 17px;
+        font-family: aReglar;
+        line-height: 25px;
+        text-align: center;
+        opacity: 0.7;
+        width: 72%;
+      }
+    }
+  }
+}
+
+.mb {
+  margin-bottom: 40px;
+}
+.images {
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+}
+.imagesLogo {
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+  height: 50px;
+  width: 100px;
+  object-fit: contain;
+}
