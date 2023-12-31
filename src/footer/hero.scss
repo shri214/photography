@@ -20,24 +20,31 @@
       text-decoration: none;
       .inquire {
         text-transform: capitalize;
-        font-family: cursive;
+        font-family: "gustera";
+        font-size: 46px;
         color: #000;
+        line-height: 9px;
       }
     }
-    .social-icons{
+    .social-icons {
       font-size: 1.2rem;
       color: #cfdfdd;
     }
-    .contacts{
+    .contacts {
       transform: skewX(-30deg);
     }
-    
   }
   img {
     height: 100px;
   }
-  .ml{
+  .ml {
     margin-left: 130px;
     height: 200px;
+  }
+  .dn{
+    display: none;
+  }
+  .menu{
+    display: none;
   }
 }

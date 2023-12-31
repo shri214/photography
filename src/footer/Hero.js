@@ -3,12 +3,17 @@ import {
   InstagramFilled,
   YoutubeFilled,
   ArrowRightOutlined,
+  MenuFoldOutlined,
 } from "@ant-design/icons";
 import Logo1 from "../images/logo.png";
 import Logo2 from "../images/logo2.png";
 import "./hero.scss";
 
+import { useSharedContext } from "../provider";
+
 export const Hero = ({ types }) => {
+  const { toggle, openFunction, toggleFunction } = useSharedContext();
+ 
   return (
     <div className="hero">
       {types === "nav" ? (
@@ -18,7 +23,12 @@ export const Hero = ({ types }) => {
       ) : (
         ""
       )}
-      <img src={types === "nav" ? Logo1 : Logo2} className={types!=='nav' ? "ml":""} alt="logo" />
+      <img
+        src={types === "nav" ? Logo1 : Logo2}
+        className={types !== "nav" ? "ml" : ""}
+        alt="logo"
+      />
+
       <div className="social-links">
         <a href="https://www.instagram.com/lerevefilms/">
           <InstagramFilled className="social-icons" />
@@ -36,6 +46,13 @@ export const Hero = ({ types }) => {
           <ArrowRightOutlined className="social-icons" />
         </span>
       </div>
+      {types === "nav" ? (
+        <div className="menu">
+          <MenuFoldOutlined className="menu-icon" onClick={openFunction} />
+        </div>
+      ) : (
+        ""
+      )}
     </div>
   );
 };

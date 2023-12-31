@@ -1,0 +1,706 @@
+@import "../styles/fonts/mixins.scss";
+@media screen and (max-width: 1220px) {
+  .home-container {
+    .subheading_1 {
+    }
+    .press {
+      width: 1175px !important;
+    }
+    .photo-grid {
+      width: 1175px !important;
+    }
+    .home-text-btn {
+      width: 1175px !important;
+    }
+    .posters {
+    }
+    .photo-container {
+      width: 1175px !important;
+    }
+    .photo-desc {
+    }
+    .home-about {
+    }
+    .home-press {
+      .home-press-container {
+        width: 1175px !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .home-container {
+    .subheading_1 {
+      p {
+        font-size: 25px !important;
+      }
+    }
+    .press {
+      width: 1075px !important;
+    }
+    .photo-grid {
+      width: 1075px !important;
+    }
+    .home-text-btn {
+      width: 1075px !important;
+    }
+    .posters {
+    }
+    .photo-container {
+      width: 1075px !important;
+    }
+    .photo-desc {
+    }
+    .home-about {
+      width: 1075px !important;
+      .home-about-desc {
+        right: 50px !important;
+      }
+      .home-about-image {
+        margin-left: 30px !important;
+      }
+    }
+    .home-press {
+      .home-press-container {
+        width: 1075px !important;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1100px) {
+  .home-container {
+    .navbar-root-container .navbar-container .link {
+      font-size: 0.7rem !important;
+    }
+    .subheading_1 {
+      p {
+        font-size: 20px !important;
+      }
+    }
+    .press {
+      width: 975px !important;
+    }
+    .photo-grid {
+      width: 975px !important;
+    }
+    .home-text-btn {
+      width: 975px !important;
+    }
+    .posters {
+    }
+    .photo-container {
+      width: 975px !important;
+      .img4 {
+        top: 15px;
+        left: 19%;
+      }
+    }
+    .photo-desc {
+    }
+    .home-about {
+      width: 975px !important;
+      .home-about-desc {
+        width: 424px !important;
+        height: 600px !important;
+        right: 70px !important;
+        .home-about-heading-1 h1 {
+          line-height: 40px !important;
+          font-size: 30px !important;
+          letter-spacing: 8px !important;
+        }
+      }
+      .home-about-image {
+        margin-left: 40px !important;
+        width: 484px !important;
+        height: 694px !important;
+      }
+    }
+    .home-press {
+      .home-press-container {
+        width: 975px !important;
+      }
+
+      .home-press-container-desc {
+        .home-press-text-3 {
+          width: 310px;
+          span {
+            font-size: 30px;
+            line-height: 40px;
+            letter-spacing: 3px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar-root-container {
+    .navbar-container {
+      gap: 30px !important;
+      .link {
+        font-size: 0.6rem !important;
+        font-weight: 600;
+      }
+    }
+  }
+  .home-container {
+    .videoSection .desc .header_2,
+    .home-container .videoSection .desc .header_5 {
+      font-size: 38px !important;
+      line-height: 50px !important;
+    }
+    .subheading_1 {
+      p {
+        font-size: 17px !important;
+        letter-spacing: 1px;
+      }
+    }
+    .press {
+      width: 875px !important;
+    }
+    .photo-grid {
+      width: 875px !important;
+      .right-grid {
+        .right-grid-img-1 {
+          width: 100% !important;
+        }
+        .right-grid-img-2 {
+          width: 100% !important;
+        }
+        .grid-desc p {
+          width: 100% !important;
+        }
+      }
+      .left-grid {
+        .left-grid-img-1 {
+          width: 100% !important;
+        }
+        .left-grid-img-2 {
+          width: 100% !important;
+        }
+      }
+    }
+    .home-text-btn {
+      width: 875px !important;
+      .text-3 p {
+        line-height: 22px !important;
+        font-size: 16px;
+      }
+    }
+    .posters {
+      height: 70vh !important;
+    }
+    .photo-container {
+      width: 875px !important;
+      height: 70vh !important;
+      .img4 {
+        left: 18% !important;
+      }
+    }
+    .photo-desc {
+      width: 600px !important;
+      p {
+        line-height: 30px !important;
+        font-size: 20px !important;
+        margin-top: 50px !important;
+      }
+    }
+    .home-about {
+      width: 875px !important;
+      .home-about-desc {
+        width: 390px !important;
+        height: 510px !important;
+        .home-about-heading-1 h1 {
+          line-height: 41px !important;
+          font-size: 30px !important;
+          letter-spacing: 6px !important;
+        }
+        .home-about-heading-2 p {
+          line-height: 20px;
+          font-size: 13px;
+        }
+      }
+      .home-about-image {
+        margin-left: 40px !important;
+        width: 440px !important;
+        height: 650px !important;
+        img {
+          object-position: -600px !important;
+        }
+      }
+    }
+    .home-press {
+      .home-press-container {
+        width: 875px !important;
+      }
+      .home-press-container-img img {
+        height: 500px !important;
+        width: 350px !important;
+      }
+      .home-press-container-desc {
+        height: 500px !important;
+        .home-press-text-3 {
+          width: 350px !important;
+          span {
+            font-size: 25px;
+            line-height: 32px;
+            letter-spacing: 2px;
+          }
+        }
+      }
+
+      .wantMore .btn {
+        width: 160px;
+        height: 40px;
+      }
+    }
+    .poster2 {
+      height: 75vh;
+      .poster2-desc p {
+        font-size: 100px;
+        line-height: 75px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .navbar-root-container {
+    .navbar-container {
+      gap: 30px !important;
+      .link {
+        font-size: 0.5rem !important;
+        font-weight: 600;
+      }
+    }
+  }
+  .home-container {
+    .videoSection .desc .header_2,
+    .home-container .videoSection .desc .header_5 {
+      font-size: 35px !important;
+      line-height: 45px !important;
+    }
+    .subheading_1 {
+      p {
+        font-size: 13px !important;
+        letter-spacing: 1px;
+      }
+    }
+    .press {
+      width: 775px !important;
+    }
+    .photo-grid {
+      width: 775px !important;
+      .right-grid {
+        .right-grid-img-1 {
+          width: 100% !important;
+          height: 300px;
+        }
+        .right-grid-img-2 {
+          width: 100% !important;
+          height: 450px !important;
+        }
+        .grid-desc p {
+          width: 100% !important;
+          font-size: 12px !important;
+          letter-spacing: 1px !important;
+        }
+      }
+      .left-grid {
+        .left-grid-img-1 {
+          width: 100% !important;
+          height: 515px !important;
+        }
+        .left-grid-img-2 {
+          width: 100% !important;
+          height: 430px !important;
+        }
+      }
+    }
+    .home-text-btn {
+      width: 775px !important;
+      .text-3 p {
+        line-height: 20px !important;
+        font-size: 15px;
+      }
+    }
+    .posters {
+      height: 65vh !important;
+    }
+
+    .photo-container {
+      width: 775px !important;
+      height: 65vh !important;
+      .img4 {
+        left: 16% !important;
+        top: 6px !important;
+      }
+    }
+    .photo-desc {
+      width: 550px !important;
+      p {
+        line-height: 25px !important;
+        font-size: 18px !important;
+        margin-top: 45px !important;
+      }
+    }
+
+    .home-about {
+      width: 775px !important;
+      .home-about-desc {
+        width: 350px !important;
+        height: 470px !important;
+        .home-about-heading-1 h1 {
+          line-height: 37px !important;
+          font-size: 28px !important;
+          letter-spacing: 4.5px !important;
+        }
+        .home-about-heading-2 p {
+          line-height: 17px !important;
+          font-size: 10px !important;
+          font-weight: 500 !important;
+        }
+      }
+      .home-about-image {
+        margin-left: 20px !important;
+        width: 400px !important;
+        height: 600px !important;
+      }
+    }
+
+    .home-press {
+      .home-press-container {
+        width: 775px !important;
+      }
+      .home-press-container-img img {
+        height: 460px !important;
+        width: 310px !important;
+      }
+      .home-press-container-desc {
+        height: 460px !important;
+        .home-press-text-1 {
+          top: -16px;
+        }
+        .home-press-text-2 {
+          margin-top: 50px !important;
+          span {
+            font-size: 15px !important;
+          }
+        }
+        .home-press-text-3 {
+          width: 310px !important;
+          span {
+            letter-spacing: 2px !important;
+            font-size: 20px !important;
+            line-height: 22px !important;
+          }
+        }
+      }
+
+      .wantMore .btn {
+        width: 160px;
+        height: 40px;
+      }
+    }
+    .poster2 {
+      height: 70vh !important;
+      .poster2-desc p {
+        font-size: 90px;
+        line-height: 70px;
+      }
+      div .contactUs {
+        font-size: 10px !important;
+        font-weight: 600 !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navbar-root-container {
+    position: relative;
+    .navbar-container {
+      display: none !important;
+    }
+    .nav-menu-container {
+      display: flex !important;
+      flex-flow: column !important;
+      align-items: flex-start !important;
+      position: absolute !important;
+      width: 70% !important;
+      height: 100vh !important;
+      background-color: #cfdfdd;
+      justify-content: flex-start !important;
+      .dn {
+        display: block !important;
+        height: 150px !important;
+      }
+      .close {
+        display: block !important;
+        position: absolute !important;
+        top: 50px !important;
+        right: 50px !important;
+        color: white;
+        font-size: 4rem;
+        cursor: pointer;
+      }
+      .link {
+        font-size: 1.4rem !important;
+        width: 100% !important;
+        margin-right: 50px !important;
+        font-weight: 300;
+        margin-left: 50px;
+        margin-top: 20px;
+        text-decoration: none;
+        color: black;
+      }
+    }
+    .nav-social-links {
+      display: flex !important;
+      flex-flow: column !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+      width: 100%;
+      height: 100%;
+      a {
+        color: aliceblue;
+        font-size: 35px !important;
+      }
+      .icons {
+        margin-left: 70% !important;
+      }
+      .inquire-btn {
+        width: 60% !important;
+        height: 50px !important;
+        margin-bottom: 31px !important;
+        border: none;
+        a {
+          display: flex;
+          flex-flow: row;
+          align-items: center;
+          justify-content: space-around;
+          text-decoration: none;
+          color: black;
+          span {
+            font-size: 17px;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+
+  .hero {
+    img {
+      margin-left: 40% !important;
+    }
+    .menu {
+      display: block !important;
+      font-size: 38px !important;
+      cursor: pointer;
+    }
+    .desc,
+    .social-links {
+      display: none !important;
+    }
+  }
+
+  .home-container {
+    .videoSection .desc .header_2,
+    .home-container .videoSection .desc .header_5 {
+      font-size: 35px !important;
+      line-height: 45px !important;
+    }
+    .subheading_1 {
+      p {
+        font-size: 28px !important;
+        letter-spacing: 3px !important;
+        line-height: 50px !important;
+      }
+    }
+    .press {
+      width: 95% !important;
+      margin-bottom: 20px !important;
+      .press-container div {
+        flex-basis: 20% !important;
+      }
+      .press-container {
+        justify-content: space-between;
+      }
+    }
+    .photo-grid {
+      width: 100% !important;
+      position: relative;
+      height: 170vh;
+      .right-grid {
+        .right-grid-img-1 {
+          width: 100% !important;
+          height: 300px;
+          margin-top: 120px;
+        }
+        .right-grid-img-2 {
+          width: 100% !important;
+          height: 450px !important;
+        }
+        .grid-desc {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          p {
+            width: 100% !important;
+            font-size: 20px !important;
+            letter-spacing: 1px !important;
+          }
+        }
+      }
+      .left-grid {
+        .left-grid-img-1 {
+          width: 100% !important;
+          height: 515px !important;
+        }
+        .left-grid-img-2 {
+          width: 100% !important;
+          height: 430px !important;
+        }
+      }
+    }
+    .home-text-btn {
+      width: 775px !important;
+      .text-2 {
+        font-size: 8rem;
+        letter-spacing: 5px;
+        line-height: 122px;
+      }
+      .text-3 {
+        margin-top: 10px !important;
+        width: 95% !important;
+        p {
+          line-height: 40px !important;
+          font-size: 25px !important;
+        }
+      }
+
+      .home-btn {
+        width: 60%;
+        font-size: 23px;
+      }
+    }
+    .posters {
+      height: 65vh !important;
+    }
+
+    .photo-container {
+      width: 100% !important;
+      height: 65vh !important;
+      overflow: hidden;
+      .img1,
+      .img3 {
+        flex-basis: unset;
+        width: 230px;
+      }
+      .img2 {
+        flex-basis: unset;
+        width: 400px;
+      }
+      .img4 {
+        left: 16% !important;
+        top: 6px !important;
+      }
+    }
+    .photo-desc {
+      width: 95% !important;
+      p {
+        line-height: 50px !important;
+        font-size: 38px !important;
+        margin-top: 45px !important;
+      }
+    }
+
+    .home-about {
+      width: 100% !important;
+      height: 200vh;
+      .home-about-desc {
+        width: 80% !important;
+        height: 120vh !important;
+
+        .home-about-heading-0 p {
+          line-height: 51px;
+          font-size: 40px;
+          font-weight: 400;
+        }
+        .home-about-heading-1 h1 {
+          line-height: 80px !important;
+          font-size: 70px !important;
+          letter-spacing: 4.5px !important;
+        }
+        .home-about-heading-2 p {
+          line-height: 30px !important;
+          font-size: 20px !important;
+          font-weight: 500 !important;
+        }
+        .btn {
+          width: 80%;
+          height: 80px;
+          font-size: 35px;
+          text-transform: uppercase;
+        }
+      }
+      .home-about-image {
+        margin-left: 20px !important;
+        width: 98.6% !important;
+        height: 600px !important;
+        img {
+          object-position: -200px !important;
+        }
+      }
+    }
+
+    .home-press {
+      .home-press-container {
+        width: 775px !important;
+      }
+      .home-press-container-img img {
+        height: 460px !important;
+        width: 310px !important;
+      }
+      .home-press-container-desc {
+        height: 460px !important;
+        .home-press-text-1 {
+          top: -16px;
+        }
+        .home-press-text-2 {
+          margin-top: 50px !important;
+          span {
+            font-size: 15px !important;
+          }
+        }
+        .home-press-text-3 {
+          width: 310px !important;
+          span {
+            letter-spacing: 2px !important;
+            font-size: 20px !important;
+            line-height: 22px !important;
+          }
+        }
+      }
+
+      .wantMore .btn {
+        width: 160px;
+        height: 40px;
+      }
+    }
+    .poster2 {
+      height: 70vh !important;
+      .poster2-desc p {
+        font-size: 90px;
+        line-height: 70px;
+      }
+      div .contactUs {
+        font-size: 10px !important;
+        font-weight: 600 !important;
+      }
+    }
+  }
+}

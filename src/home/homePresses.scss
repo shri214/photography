@@ -37,27 +37,39 @@
     justify-content: space-evenly;
 
     .home-press-text-1 {
-      transform: skew(40deg, -7deg);
+      transform: rotate(-20deg);
+      position: absolute;
+      top: 20px;
+      span {
+        font-size: 30px;
+        line-height: 40px;
+        font-family: kenjo I;
+        letter-spacing: 4px;
+        font-weight: 400;
+      }
       p {
-        font-size: 3rem;
+        font-size: 6rem;
         font-weight: 300;
-        font-family: cursive;
+        font-family: gustera;
+        line-height: 30px;
       }
     }
 
     .home-press-text-2 {
-      span {
-        letter-spacing: 2px;
-        font-family: sans-serif;
+      margin-top: 90px;
+      span{
+        font-weight: 600;
+        font-family: aRegular;
+        font-size: 20px;
       }
     }
 
     .home-press-text-3 {
       width: 410px;
       span {
-        font-size: 36px;
-        line-height: 47px;
-        font-family: sans-serif;
+        font-size: 30px;
+        line-height: 40px;
+        font-family: kenjo I;
         letter-spacing: 4px;
         font-weight: 400;
       }
@@ -66,8 +78,9 @@
     .home-press-text-4 {
       width: 350px;
       p {
-        font-family: sans-serif;
+        font-family: aRegular;
         line-height: 20px;
+        font-weight: 500;
       }
     }
 
@@ -85,18 +98,18 @@
     flex-basis: 40%;
   }
 
-
-  .wantMore{
+  .wantMore {
     margin-top: 50px;
     margin-bottom: 100px;
-    p{
+    p {
       color: #fff;
       font-size: 42px;
       line-height: 63px;
-      font-family: Muster SSi;
+      font-family: gustera;
       font-weight: 300;
+      text-transform: capitalize;
     }
-    .btn{
+    .btn {
       width: 185px;
       height: 50px;
       color: #fff;

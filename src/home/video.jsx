@@ -1,4 +1,4 @@
-import React, {  useState } from "react";
+import React, { useState } from "react";
 
 export const InfiniteVideoPlayer = ({ videoUrl, imageUrl }) => {
   const [videoLoaded, setVideoLoaded] = useState(false);
@@ -20,6 +20,7 @@ export const InfiniteVideoPlayer = ({ videoUrl, imageUrl }) => {
           frameBorder="0"
           height="100%"
           width="100%"
+          style={{ width: "100%", height: "100%" }}
           allow="autoplay; fullscreen"
           allowFullScreen
         ></iframe>

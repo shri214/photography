@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { InfiniteVideoPlayer } from "./video";
 import { GridGallery } from "./gridGallery";
-
-// import girl from "../images/white_dress_girl.jpeg";
+import "./mobile.scss";
 
 import bazaar from "../images/bazaar.jpg";
 import brides from "../images/brides.png";
@@ -60,7 +59,12 @@ export const Home = () => {
     const handleResize = () => {
       const screenWidth = window.innerWidth;
       const calculatedHeight = `${screenWidth * 0.5}px`;
-      setHeight(calculatedHeight);
+      if(calculatedHeight >= "400px"){
+        setHeight(calculatedHeight);
+      }else{
+        setHeight("600px")
+      }
+
     };
 
     window.addEventListener("resize", handleResize);

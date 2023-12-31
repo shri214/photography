@@ -1,0 +1,6 @@
+@mixin displayWidth($width){
+    width: $width;
+    display: block;
+    margin: auto;
+}
+

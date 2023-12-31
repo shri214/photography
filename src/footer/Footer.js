@@ -44,12 +44,24 @@ export const Footer = () => {
         </div>
       </div>
       <div className="images-container">
-        <img src={One} alt="one" />
-        <img src={Car} alt="car" />
-        <img src={Celebration} alt="Celebration" />
-        <img src={Four} alt="four" />
-        <img src={Three} alt="three" />
-        <img src={Two} alt="two" />
+        <div className="img-boxes">
+          <img src={One} alt="one" />
+        </div>
+        <div className="img-boxes">
+          <img src={Car} alt="car" />
+        </div>
+        <div className="img-boxes">
+          <img src={Celebration} alt="Celebration" />
+        </div>
+        <div className="img-boxes">
+          <img src={Four} alt="four" />
+        </div>
+        <div className="img-boxes">
+          <img src={Three} alt="three" />
+        </div>
+        <div className="img-boxes">
+          <img src={Two} alt="two" />
+        </div>
       </div>
       <p className="bottom-text">
         Branding by TPD Design House|Photography Credits|The Le Rêve Films™ name

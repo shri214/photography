@@ -1,0 +1,134 @@
+.stories-container {
+  .videoPoster {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    .blackLayer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #000;
+      opacity: 0.3;
+      width: 100%;
+      height: 100%;
+    }
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 35px;
+      font-family: kenjo I;
+      line-height: 52px;
+      color: white;
+      cursor: pointer;
+    }
+  }
+
+  //vendor
+
+  .vendor {
+    background-color: #f3e2d0;
+    height: 70vh;
+    .width1200 {
+      width: 1200px;
+      display: block;
+      margin: auto;
+      height: inherit;
+      .flexDisplay {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 6%;
+        height: inherit;
+        .fb {
+          flex-basis: 47%;
+        }
+        .first-container {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: flex-end;
+          gap: 40px;
+          .firstImage {
+            width: 195px;
+            height: 266px;
+            img {
+              width: inherit;
+              height: inherit;
+              object-fit: cover;
+            }
+          }
+          .secondImage {
+            width: 260px;
+            height: 380px;
+            img {
+              width: inherit;
+              height: inherit;
+              object-fit: cover;
+            }
+          }
+        }
+        .second-container {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: flex-start;
+          color: white;
+          .heading {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            h1 {
+              font-family: gustera;
+              font-size: 50px;
+              line-height: 90px;
+              letter-spacing: 2px;
+              margin-bottom: 10px;
+            }
+            p {
+              font-family: kenjo-I;
+              font-size: 45px;
+              line-height: 45px;
+            }
+            .lines {
+              margin: 20px 0 50px;
+              border: 1px solid;
+            }
+          }
+          .desc {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: center;
+            color: #000;
+            div {
+              flex-basis: 55%;
+              p:first-child {
+                color: white;
+                font-family: aRegular;
+                font-size: 13px;
+                line-height: 23px;
+                font-weight: 600;
+                letter-spacing: 2px;
+                margin-bottom: 7px;
+              }
+              p:last-child {
+                font-family: aRegular;
+                font-size: 13px;
+                line-height: 20px;
+               
+              }
+            }
+            p {
+              font-family: aRegular;
+              font-size: 13px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

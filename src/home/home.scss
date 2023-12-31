@@ -33,7 +33,7 @@
       }
       .header_2,
       .header_5 {
-        font-family: brand;
+        font-family: kenjo I;
         font-weight: 700;
         font-size: 45px;
         line-height: 59px;
@@ -44,9 +44,10 @@
         margin-right: 20px;
       }
       .header_4 {
-        font-family: cursive;
-        font-size: 1.2rem;
+        font-family: "gustera";
+        font-size: 4rem;
         font-weight: 400;
+        line-height: 25px;
       }
       .mb {
         margin-bottom: 10px;
@@ -63,9 +64,13 @@
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    letter-spacing: 2px;
-    font-weight: 500;
-    line-height: 1.5;
+    p {
+      letter-spacing: 2px;
+      font-weight: 500;
+      line-height: 1.5;
+      font-family: aRegular;
+      font-size: 27px;
+    }
   }
 
   //Press
@@ -107,14 +112,14 @@
       margin: auto;
       text-align: center;
       margin-top: 50px;
-      margin-bottom: 50px;
+      margin-bottom: 70px;
       p {
-        font-family: cursive;
+        font-family: gustera;
         font-weight: 200;
-        font-size: 2rem;
+        font-size: 5rem;
         font-style: italic;
         color: #678fa4;
-        line-height: 2;
+        line-height: 60px;
       }
     }
     .text-3 {
@@ -125,7 +130,7 @@
         line-height: 25px;
         font-size: 18px;
         font-weight: 300;
-        font-family: AvenirNextLTPro;
+        font-family: aRegular;
         text-align: center;
       }
     }
@@ -164,7 +169,7 @@
       text-align: center;
       line-height: 35px;
       font-size: 28px;
-      font-family: none;
+      font-family: kenjo I;
       text-transform: uppercase;
       margin-top: 100px;
       font-weight: normal;
@@ -172,9 +177,11 @@
     .text-4 {
       margin-bottom: 50px;
       p {
-        font-size: 1rem;
+        line-height: 35px !important ;
+        font-size: 28px !important;
         margin-top: 30px;
         letter-spacing: 2px;
+        font-family: aRegular !important;
       }
     }
   }
@@ -186,7 +193,7 @@
     display: block;
     margin: auto;
     position: relative;
-    padding: 30px 131px 10px;
+    margin-bottom: 10px;
     .home-about-image {
       width: 584px;
       height: 794px;
@@ -227,7 +234,7 @@
           font-size: 38px;
           text-align: center;
           font-weight: 400;
-          font-family: auto;
+          font-family: kenjo I;
           letter-spacing: 10px;
         }
       }
@@ -256,5 +263,6 @@
 
   .home-press {
     background-color: #cfe0dd;
+    position: relative;
   }
 }
