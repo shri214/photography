@@ -10,12 +10,16 @@ export const SharedProvider = ({ children }) => {
   const openFunction=()=>{
     setToggle(true);
   }
+  const closeFunction=()=>{
+    setToggle(false);
+  }
 
   return (
     <SharedContext.Provider
       value={{
         toggle,
         openFunction,
+        closeFunction,
         toggleFunction
       }}
     >

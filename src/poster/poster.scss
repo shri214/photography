@@ -71,19 +71,17 @@
   transform: rotate(0deg) !important;
   margin-bottom: 20px !important;
   p {
-    font-family: aRegular !important;
-    font-size: 22px !important;
+    font-family: kenjo I !important;
+    font-size: 45px !important;
     line-height: 100px !important;
     letter-spacing: 5px !important;
   }
 }
 .width64 {
-  width: 64% !important;
+  width: 56%;
+  font-size: 15px;
+  line-height: 22px;
 }
-// .remove{
-//   // background-color: transparent !important;
-//   opacity: 0.2 !important;
-// }
 
 //mobile style
 
@@ -94,6 +92,15 @@
         font-size: 70px !important;
         line-height: 100px !important;
         letter-spacing: 12px !important;
+      }
+      .about-text-2s {
+        font-size: 11px;
+        line-height: 20px;
+      }
+      .width64 {
+        width: 60%;
+        font-size: 11px;
+        line-height: 20px;
       }
     }
   }
@@ -111,6 +118,15 @@
       .about-text-1 p {
         font-size: 131px !important;
         line-height: 200px !important;
+      }
+      .width64 {
+        width: 80%;
+        font-size: 25px;
+        line-height: 40px;
+      }
+      .fsN p {
+        font-size: 65px !important;
+        line-height: 130px !important;
       }
       .about-text-2 {
         width: 80%;
@@ -131,6 +147,15 @@
         line-height: 100px !important;
         letter-spacing: 9px !important;
       }
+      .width64 {
+        width: 80%;
+        font-size: 20px;
+        line-height: 30px;
+      }
+      .fsN p {
+        font-size: 55px !important;
+        line-height: 100px !important;
+      }
     }
   }
 }
@@ -147,6 +172,14 @@
         font-size: 80px !important;
         line-height: 90px !important;
         letter-spacing: 6px !important;
+      }
+      .width64 {
+        font-size: 18px;
+        line-height: 30px;
+      }
+      .fsN p {
+        font-size: 45px !important;
+        line-height: 80px !important;
       }
       .about-text-2 p {
         line-height: 55px;

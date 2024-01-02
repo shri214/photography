@@ -17,8 +17,8 @@ const posterData = [
     cl0: "poster height80",
     cl1: "poster-desc",
     cl2: "about-us",
-    cl3: "about-text-1 fsN",
-    cl4: "about-text-2 width64",
+    cl3: "about-text-1s fsN",
+    cl4: "about-text-2s width64",
     clBlackLayer: "remove",
   },
 ];
@@ -108,7 +108,7 @@ export const Press = () => {
   return (
     <div className="press-container">
       <Hero types={"nav"} />
-      <Poster posterData={posterData} />
+      <Poster posterData={posterData} com={"press"}/>
       {pressGalleryData.map((val, ind) => {
         if (ind % 2 === 0) {
           return <PressGallery order={"desc"} ind={ind} val={val} />;

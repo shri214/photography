@@ -32,6 +32,7 @@ export const Contact = () => {
     "https://static.showit.co/800/pCeOxvyNQwSLZ-h3q2sQ5g/129082/kleinfeldxtulum-131.jpg",
     "https://static.showit.co/800/8dT8MpX_Qc2uDP72Yh3tUg/129082/220330_micaela_1160.jpg",
   ]
+  console.log(location.pathname);
   return (
     <div className="contact">
       <Hero types={"nav"} />

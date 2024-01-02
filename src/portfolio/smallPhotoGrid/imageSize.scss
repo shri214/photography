@@ -52,6 +52,7 @@
         text-align: center;
         opacity: 0.7;
         width: 72%;
+        margin-bottom: 20px;
       }
     }
   }
@@ -72,4 +73,125 @@
   height: 50px;
   width: 100px;
   object-fit: contain;
+}
+
+@media screen and (max-width: 1220px) {
+  .imageSize {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .imageSize {
+    .small-container .image-container {
+      gap: 5%;
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .imageSize {
+    .small-container {
+      .small-container-desc p {
+        width: 85%;
+      }
+      .image-container {
+        gap: 1%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .imageSize {
+    .small-container {
+      .small-container-desc {
+        h1 {
+          font-size: 1.8rem;
+        }
+        p {
+          font-size: 15px;
+        }
+      }
+      .image-container {
+        .smaller {
+          width: 190px;
+          height: 240px;
+        }
+        .bigger {
+          width: 210px;
+          height: 266px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .imageSize {
+    .small-container {
+      .small-container-desc {
+        h1 {
+          font-size: 4rem;
+        }
+        p {
+          font-size: 30px;
+          line-height: 50px;
+        }
+      }
+      .image-container {
+        .mb {
+          width: calc(48%);
+          height: 50vh;
+          .images {
+            height: 100%;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .imageSize {
+    .small-container {
+      .small-container-desc {
+        h1 {
+          font-size: 3rem;
+        }
+        p {
+          font-size: 16px;
+          line-height: 28px;
+        }
+      }
+      .image-container {
+        .mb {
+          height: 35vh;
+          .imagesLogo {
+            left: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .imageSize {
+    .small-container {
+      .small-container-desc {
+        h1 {
+          font-size: 2.5rem;
+        }
+        p {
+          font-size: 14px;
+          line-height: 22px;
+        }
+      }
+      .image-container {
+        .mb {
+          height: 30vh;
+          .imagesLogo {
+            left: 10px;
+          }
+        }
+      }
+    }
+  }
 }

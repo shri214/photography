@@ -33,3 +33,72 @@
     pointer-events: none !important;
     display: none !important;
 }
+
+@media screen and (max-width:1220px) {
+  .portfolio{
+    .quotes{
+      width: 100%;
+      height: 500px;
+    }
+  }
+}
+@media screen and (max-width:900px) {
+  .portfolio{
+    .quotes{
+      .quotes1{
+        width: 80%;
+      }
+    }
+  }
+}
+@media screen and (max-width:800px) {
+  .portfolio{
+    .quotes{
+      .quotes1{
+        .quotes1-text {
+         font-size: 7rem;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:700px) {
+  .portfolio{
+    .quotes{
+      height: 600px;
+      .quotes1{
+        .quotes1-text {
+         font-size: 5.5rem;
+         
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:500px) {
+  .portfolio{
+    .quotes{
+      height: 500px;
+      .quotes1{
+        .quotes1-text {
+         font-size: 4rem;
+         line-height: 80px;
+         letter-spacing: 1.5px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:500px) {
+  .portfolio{
+    .quotes{
+      .quotes1{
+        .quotes1-text {
+         font-size: 3.5rem;
+         line-height: 70px;
+         letter-spacing: 1.8px;
+        }
+      }
+    }
+  }
+}

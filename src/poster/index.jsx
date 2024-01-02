@@ -1,7 +1,7 @@
 import React from "react";
 import "./poster.scss";
 
-export const Poster = ({ posterData }) => {
+export const Poster = ({ posterData , com}) => {
   console.log(posterData[0]);
   return (
     <div className={posterData[1].cl0}>
@@ -15,9 +15,11 @@ export const Poster = ({ posterData }) => {
           <div className={posterData[1].cl3}>
             <p>{posterData[0].text1}</p>
           </div>
-          <div className={posterData[1].cl4}>
+          {com==="press"?<div className={posterData[1].cl4}>
             <p>{posterData[0].text2}</p>
-          </div>
+          </div>:<div className={posterData[1].cl4}>
+            <p>{posterData[0].text2}</p>
+          </div>}
         </div>
       </div>
     </div>

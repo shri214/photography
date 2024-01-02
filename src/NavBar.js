@@ -10,7 +10,7 @@ import {
 import { useSharedContext } from "./provider";
 
 export const NavBar = () => {
-  const { toggle, openFunction, toggleFunction } = useSharedContext();
+  const { toggle, closeFunction, toggleFunction } = useSharedContext();
 
   return (
     <div className="navbar-root-container">
@@ -38,19 +38,19 @@ export const NavBar = () => {
           </div>
 
           <img src={Logo2} alt="logo2" className="dn" />
-          <Link to="/" className="link">
+          <Link to="/" className="link" onClick={closeFunction}>
             Home
           </Link>
-          <Link to="/about" className="link">
+          <Link to="/about" className="link" onClick={closeFunction}>
             About
           </Link>
-          <Link to="/portfolio" className="link">
+          <Link to="/portfolio" className="link" onClick={closeFunction}>
             Portfolio
           </Link>
-          <Link to="/press" className="link">
+          <Link to="/press" className="link" onClick={closeFunction}>
             Press
           </Link>
-          <Link to="/contact" className="link">
+          <Link to="/contact" className="link" onClick={closeFunction}>
             Contact
           </Link>
           <div className="nav-social-links">
