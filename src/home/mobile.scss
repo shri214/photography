@@ -21,11 +21,6 @@
     }
     .home-about {
     }
-    .home-press {
-      .home-press-container {
-        width: 1175px !important;
-      }
-    }
   }
 }
 
@@ -61,11 +56,7 @@
         margin-left: 30px !important;
       }
     }
-    .home-press {
-      .home-press-container {
-        width: 1075px !important;
-      }
-    }
+   
   }
 }
 @media screen and (max-width: 1100px) {
@@ -114,22 +105,6 @@
         margin-left: 40px !important;
         width: 484px !important;
         height: 694px !important;
-      }
-    }
-    .home-press {
-      .home-press-container {
-        width: 975px !important;
-      }
-
-      .home-press-container-desc {
-        .home-press-text-3 {
-          width: 310px;
-          span {
-            font-size: 30px;
-            line-height: 40px;
-            letter-spacing: 3px;
-          }
-        }
       }
     }
   }
@@ -231,38 +206,7 @@
         }
       }
     }
-    .home-press {
-      .home-press-container {
-        width: 875px !important;
-      }
-      .home-press-container-img img {
-        height: 500px !important;
-        width: 350px !important;
-      }
-      .home-press-container-desc {
-        height: 500px !important;
-        .home-press-text-3 {
-          width: 350px !important;
-          span {
-            font-size: 25px;
-            line-height: 32px;
-            letter-spacing: 2px;
-          }
-        }
-      }
-
-      .wantMore .btn {
-        width: 160px;
-        height: 40px;
-      }
-    }
-    .poster2 {
-      height: 75vh;
-      .poster2-desc p {
-        font-size: 100px;
-        line-height: 75px;
-      }
-    }
+   
   }
 }
 
@@ -370,51 +314,7 @@
       }
     }
 
-    .home-press {
-      .home-press-container {
-        width: 775px !important;
-      }
-      .home-press-container-img img {
-        height: 460px !important;
-        width: 310px !important;
-      }
-      .home-press-container-desc {
-        height: 460px !important;
-        .home-press-text-1 {
-          top: -16px;
-        }
-        .home-press-text-2 {
-          margin-top: 50px !important;
-          span {
-            font-size: 15px !important;
-          }
-        }
-        .home-press-text-3 {
-          width: 310px !important;
-          span {
-            letter-spacing: 2px !important;
-            font-size: 20px !important;
-            line-height: 22px !important;
-          }
-        }
-      }
-
-      .wantMore .btn {
-        width: 160px;
-        height: 40px;
-      }
-    }
-    .poster2 {
-      height: 70vh !important;
-      .poster2-desc p {
-        font-size: 90px;
-        line-height: 70px;
-      }
-      div .contactUs {
-        font-size: 10px !important;
-        font-weight: 600 !important;
-      }
-    }
+    
   }
 }
 
@@ -492,21 +392,6 @@
     }
   }
 
-  .hero {
-    img {
-      margin-left: 40% !important;
-    }
-    .menu {
-      display: block !important;
-      font-size: 38px !important;
-      cursor: pointer;
-    }
-    .desc,
-    .social-links {
-      display: none !important;
-    }
-  }
-
   .home-container {
     .videoSection .desc .header_2,
     .home-container .videoSection .desc .header_5 {
@@ -567,11 +452,12 @@
       }
     }
     .home-text-btn {
-      width: 775px !important;
+      width: 95% !important;
       .text-2 {
         font-size: 8rem;
         letter-spacing: 5px;
         line-height: 122px;
+        width: 100% !important;
       }
       .text-3 {
         margin-top: 10px !important;
@@ -620,15 +506,15 @@
 
     .home-about {
       width: 100% !important;
-      height: 200vh;
+      height: 180vh;
       .home-about-desc {
         width: 80% !important;
         height: 120vh !important;
 
         .home-about-heading-0 p {
-          line-height: 51px;
-          font-size: 40px;
-          font-weight: 400;
+          line-height: 51px !important;
+          font-size: 40px !important;
+          font-weight: 400 !important;
         }
         .home-about-heading-1 h1 {
           line-height: 80px !important;
@@ -641,66 +527,189 @@
           font-weight: 500 !important;
         }
         .btn {
-          width: 80%;
-          height: 80px;
+          width: 80% !important;
+          height: 80px !important;
           font-size: 35px;
           text-transform: uppercase;
         }
       }
       .home-about-image {
-        margin-left: 20px !important;
-        width: 98.6% !important;
+        margin-left: 0px !important;
+        width: 100% !important;
         height: 600px !important;
         img {
-          object-position: -200px !important;
+          object-position: center !important;
         }
       }
     }
 
-    .home-press {
-      .home-press-container {
-        width: 775px !important;
-      }
-      .home-press-container-img img {
-        height: 460px !important;
-        width: 310px !important;
-      }
-      .home-press-container-desc {
-        height: 460px !important;
-        .home-press-text-1 {
-          top: -16px;
+    
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .home-container {
+   
+    .subheading_1 p {
+      font-size: 22px !important;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar-root-container .nav-menu-container {
+    .close {
+      font-size: 3rem !important;
+    }
+    .dn {
+      height: 130px !important;
+    }
+  }
+  .home-container {
+    .videoSection {
+      .desc {
+        .header_5,
+        .header_2 {
+          font-size: 30px !important;
+          line-height: 40px !important;
         }
-        .home-press-text-2 {
-          margin-top: 50px !important;
-          span {
+        .header_4 {
+          font-size: 3rem !important;
+          line-height: 8px !important;
+        }
+      }
+    }
+
+    .subheading_1 {
+      margin-left: 0px !important;
+      p {
+        font-size: 15px !important;
+        letter-spacing: 1px !important;
+        line-height: 30px !important;
+      }
+    }
+
+    .photo-grid .right-grid .grid-desc p {
+      font-size: 15px !important;
+    }
+
+    .home-text-btn {
+      margin-top: 0px !important;
+      .text-2 {
+        margin-top: 20px !important;
+        margin-bottom: 35px !important;
+        p {
+          font-size: 3rem !important;
+          line-height: 50px !important;
+        }
+      }
+      .text-3 p {
+        line-height: 32px !important;
+        font-size: 19px !important;
+      }
+      .home-btn {
+        width: 80% !important;
+        margin-bottom: 31px !important;
+        font-size: 20px !important;
+      }
+    }
+
+    .photo-container {
+      height: 50vh !important;
+      .img4 {
+        top: 20px !important;
+        left: 0px !important;
+        .p {
+          line-height: 56px !important;
+        }
+      }
+    }
+
+    .photo-desc p {
+      line-height: 40px !important;
+      font-size: 30px !important;
+      margin-top: 35px !important;
+    }
+
+    .home-about {
+      height: 125vh !important;
+      .home-about-image img {
+        object-position: -500px !important;
+      }
+      .home-about-desc {
+        height: 65vh !important;
+        right: 45px !important;
+        .home-about-heading-0 p {
+          font-size: 30px !important;
+        }
+        .home-about-heading-1 h1 {
+          line-height: 50px !important;
+          font-size: 39px !important;
+          letter-spacing: 3.5px !important;
+        }
+        .home-about-heading-2 p {
+          line-height: 19px !important;
+          font-size: 13px !important;
+        }
+        .btn {
+          height: 65px !important;
+          font-size: 26px;
+        }
+      }
+    }
+    
+    .photo-grid {
+      height: 135vh !important;
+      .left-grid {
+        flex-basis: 48% !important;
+        .left-grid-img-1 {
+          height: 400px !important;
+        }
+        .left-grid-img-2 {
+          height: 350px !important;
+        }
+      }
+      .right-grid {
+        flex-basis: 48% !important;
+        .right-grid-img-1 {
+          height: 250px;
+          margin-top: 70px;
+        }
+        .right-grid-img-2 {
+          height: 330px !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .home-container {
+    .videoSection {
+      .desc {
+        left: 30px !important;
+        .header_2,
+        .header_3,
+        .header_5 {
+          font-size: 20px !important;
+          line-height: 50px !important;
+        }
+      }
+    }
+
+    .subheading_1 p {
+      font-size: 13px !important;
+      line-height: 26px !important;
+    }
+    .home-about {
+      .home-about-desc {
+        .home-about-heading-0 {
+          p {
             font-size: 15px !important;
           }
         }
-        .home-press-text-3 {
-          width: 310px !important;
-          span {
-            letter-spacing: 2px !important;
-            font-size: 20px !important;
-            line-height: 22px !important;
-          }
-        }
       }
+    }
 
-      .wantMore .btn {
-        width: 160px;
-        height: 40px;
-      }
-    }
-    .poster2 {
-      height: 70vh !important;
-      .poster2-desc p {
-        font-size: 90px;
-        line-height: 70px;
-      }
-      div .contactUs {
-        font-size: 10px !important;
-        font-weight: 600 !important;
-      }
-    }
+    
   }
 }

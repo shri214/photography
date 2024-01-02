@@ -139,3 +139,65 @@ export const About = () => {
     </div>
   );
 };
+
+
+// .poster-2 {
+//   height: 80vh;
+//   .poster-2-desc {
+//     width: 1200px;
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     transform: translate(-50%, -50%);
+//     .poster-2-desc-2 {
+//       height: 300px;
+//       width: 46%;
+//       color: #fff;
+//       display: flex;
+//       flex-flow: column;
+//       align-items: center;
+//       .poster-2-text-1 {
+//         transform: rotate(-3deg);
+//         p {
+//           font-family: gustera;
+//           font-size: 3rem;
+//           line-height: 120px;
+//           letter-spacing: 4px;
+//         }
+//       }
+//       .poster-2-text-2 {
+//         margin-top: 20px;
+//         a {
+//           text-decoration: none;
+//           color: #fff;
+//           p {
+//             font-family: kenjo I;
+//             font-size: 25px;
+//             line-height: 38px;
+//             text-align: center;
+//           }
+//         }
+//       }
+//       .poster-2-text-3 {
+//         margin-top: 20px;
+//         a {
+//           text-decoration: none;
+//           color: white;
+//           display: flex;
+//           flex-direction: row;
+//           align-items: center;
+//           justify-content: center;
+//           gap: 10px;
+//           p {
+//             font-family: aRegular;
+//             font-size: 11px;
+//             line-height: 10px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

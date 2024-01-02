@@ -6,6 +6,12 @@ import Three from "../images/three.jpg";
 import Celebration from "../images/pair_celebration.jpeg";
 import Four from "../images/four.jpeg";
 
+import {
+  FacebookFilled,
+  InstagramFilled,
+  YoutubeFilled,
+} from "@ant-design/icons";
+
 import { Link } from "react-router-dom";
 import { Hero } from "./Hero";
 
@@ -30,6 +36,28 @@ export const Footer = () => {
           <Link className="link" to="/contact">
             Contact
           </Link>
+        </div>
+        <div className="footer-social-links">
+          <a className="icons" href="https://www.instagram.com/lerevefilms/">
+            <InstagramFilled className="social-icons" />
+          </a>
+          <a
+            className="icons"
+            href="https://www.youtube.com/channel/UCzYo9JWzbjQdab44ZWhTesA"
+          >
+            <YoutubeFilled className="social-icons" />
+          </a>
+          <a className="icons" href="https://www.facebook.com/lerevefilms/">
+            <FacebookFilled className="social-icons" />
+          </a>
+
+          <a href="/contact" className="contacts">
+            <span className="inquire">inquire</span>
+
+            <span className="material-icons">
+              arrow_right_alt
+            </span>
+          </a>
         </div>
         <div className="contact-details">
           <p className="mails">
@@ -56,10 +84,10 @@ export const Footer = () => {
         <div className="img-boxes">
           <img src={Four} alt="four" />
         </div>
-        <div className="img-boxes">
+        <div className="img-boxes hides">
           <img src={Three} alt="three" />
         </div>
-        <div className="img-boxes">
+        <div className="img-boxes hides">
           <img src={Two} alt="two" />
         </div>
       </div>

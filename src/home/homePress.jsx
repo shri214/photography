@@ -16,7 +16,7 @@ export const HomePress = () => {
 
   return (
     <div className="home-press-container">
-      <div ref={ref} className="home-press-containers">
+      <div ref={ref} className="home-press-containers mt130">
         <div  className="home-press-container-img">
           {inView && (
             <a href="/portfolio">
@@ -51,7 +51,7 @@ export const HomePress = () => {
         </div>
       </div>
 
-      <div ref={ref1} className="home-press-containers">
+      <div ref={ref1} className="home-press-containers heightManage">
         <div className="home-press-container-desc container-desc2">
           <div className="home-press-text-2 ml">
             <span>LONG ISLAND, NEW YORK</span>
@@ -91,3 +91,5 @@ export const HomePress = () => {
     </div>
   );
 };
+
+

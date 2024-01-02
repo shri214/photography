@@ -6,6 +6,7 @@
     height: inherit;
     width: inherit;
     object-fit: cover;
+    object-position: right;
   }
   .black-layer {
     position: absolute;
@@ -63,23 +64,115 @@
   }
 }
 
-.height80{
+.height80 {
   height: 80vh !important;
 }
-.fsN{
+.fsN {
   transform: rotate(0deg) !important;
   margin-bottom: 20px !important;
-  p{
+  p {
     font-family: aRegular !important;
     font-size: 22px !important;
     line-height: 100px !important;
     letter-spacing: 5px !important;
   }
 }
-.width64{
+.width64 {
   width: 64% !important;
 }
 // .remove{
 //   // background-color: transparent !important;
 //   opacity: 0.2 !important;
 // }
+
+//mobile style
+
+@media screen and (max-width: 1000px) {
+  .poster {
+    .black-layer {
+      .about-text-1 p {
+        font-size: 70px !important;
+        line-height: 100px !important;
+        letter-spacing: 12px !important;
+      }
+    }
+  }
+}
+@media screen and (max-width: 800px) {
+  .poster {
+    height: 100vh !important;
+    .black-layer {
+      .about-us {
+        font-size: 30px;
+      }
+      .lines {
+        width: 60px;
+      }
+      .about-text-1 p {
+        font-size: 131px !important;
+        line-height: 200px !important;
+      }
+      .about-text-2 {
+        width: 80%;
+        p {
+          line-height: 70px;
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .poster {
+    .black-layer {
+      .about-text-1 p {
+        font-size: 100px !important;
+        line-height: 100px !important;
+        letter-spacing: 9px !important;
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .poster {
+    .black-layer {
+      .about-us {
+        font-size: 25px !important;
+      }
+      .lines {
+        width: 40px !important;
+      }
+      .about-text-1 p {
+        font-size: 80px !important;
+        line-height: 90px !important;
+        letter-spacing: 6px !important;
+      }
+      .about-text-2 p {
+        line-height: 55px;
+        font-size: 25px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .poster {
+    .black-layer {
+      .about-us {
+        font-size: 20px !important;
+      }
+      .lines {
+        width: 30px !important;
+      }
+      .about-text-1 p {
+        font-size: 65px !important;
+        line-height: 70px !important;
+        letter-spacing: 4px !important;
+      }
+      .about-text-2 p {
+        line-height: 40px;
+        font-size: 18px;
+      }
+    }
+  }
+}

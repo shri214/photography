@@ -1,61 +1,4 @@
 .about {
-  //poster
-  .poster {
-    position: relative;
-    height: 88vh;
-    width: 100%;
-    .poster-img {
-      height: inherit;
-      width: inherit;
-      object-fit: cover;
-    }
-    .black-layer {
-      position: absolute;
-      height: inherit;
-      width: inherit;
-      top: 0px;
-      left: 0;
-      background-color: black;
-      opacity: 0.5;
-      color: #fff;
-      display: flex;
-      flex-flow: row;
-      align-items: center;
-      justify-content: center;
-      .poster-desc {
-        width: 1200px;
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-        justify-content: center;
-      }
-      .about-us {
-        font-size: 12px;
-        line-height: 22px;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        margin-bottom: 10px;
-      }
-      .about-text-1 {
-        transform: scale(1, 1) rotate(-3deg);
-        margin-bottom: 50px;
-        p {
-          font-size: 100px;
-          line-height: 110px;
-          font-family: gustera;
-          letter-spacing: 14px;
-        }
-      }
-      .about-text-2 {
-        width: 400px;
-        p {
-          line-height: 22px;
-          text-align: center;
-        }
-      }
-    }
-  }
-
   //About us css
   .AboutUs {
     background-color: #cfe0dd;
@@ -79,7 +22,8 @@
         flex-basis: 38%;
         img {
           height: inherit;
-          width: inherit;
+          width: 100%;
+          object-fit: cover;
         }
       }
       .AboutUs-1-container-img-2 {
@@ -187,7 +131,7 @@
       align-items: center;
       gap: 6%;
       margin: auto;
-      padding: 40px;
+      // padding: 40px;
       position: relative;
       .mission-inner-container {
         flex-basis: 47%;
@@ -211,7 +155,7 @@
             height: 150px;
             width: 150px;
             position: absolute;
-            bottom: 326px;
+            bottom: 250px;
             left: 344px;
             img {
               height: inherit;
@@ -298,61 +242,204 @@
       }
     }
   }
+}
+.ml {
+  margin-left: 10px;
+}
 
-  .poster-2 {
-    height: 80vh;
-    .poster-2-desc {
-      width: 1200px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      transform: translate(-50%, -50%);
-      .poster-2-desc-2 {
-        height: 300px;
-        width: 46%;
-        color: #fff;
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-        .poster-2-text-1 {
-          transform: rotate(-3deg);
-          p {
-            font-family: gustera;
-            font-size: 3rem;
-            line-height: 120px;
+//mobile styles
+@media screen and (max-width: 1280px) {
+  .about {
+    .AboutUs {
+      .AboutUs-1-container {
+        width: 100% !important;
+        .AboutUs-1-container-desc {
+          .about-text-3 {
+            font-size: 15px !important;
+            font-weight: 300 !important;
+          }
+          .about-text-4 p {
+            font-size: 38px;
+            line-height: 36px;
             letter-spacing: 4px;
           }
+          .about-text-5 p {
+            line-height: 21px;
+          }
         }
-        .poster-2-text-2 {
-          margin-top: 20px;
-          a {
-            text-decoration: none;
-            color: #fff;
-            p {
-              font-family: kenjo I;
-              font-size: 25px;
-              line-height: 38px;
-              text-align: center;
+      }
+    }
+    .mission-philosophy {
+      .mission-container {
+        width: 100% !important;
+        .mission-inner-container {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+          padding-right: 10px;
+          .mission-desc {
+            width: 80%;
+            .mission-text-0 p {
+              font-size: 1.8rem;
+              line-height: 40px;
+              letter-spacing: 4px;
+            }
+            .mission-text-1 p {
+              font-size: 15px;
+              line-height: 20px;
+            }
+            .mission-text-2 p {
+              line-height: 45px;
+            }
+            .mission-text-3 div .mission-text-3-desc {
+              font-size: 13px;
+              line-height: 22px;
+            }
+          }
+          .mission-image-container {
+            .mission-image-1 {
+              top: 30px;
+            }
+            .mission-image-3 {
+              top: 130px;
+            }
+            .mission-image-2 {
+              bottom: 190px;
+            }
+            .insta {
+              bottom: 86px;
             }
           }
         }
-        .poster-2-text-3 {
-          margin-top: 20px;
-          a {
-            text-decoration: none;
-            color: white;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            p {
-              font-family: aRegular;
-              font-size: 11px;
-              line-height: 10px;
+      }
+    }
+    .about-desc-3 {
+      .outer-div {
+        width: 100% !important;
+        .inner-div p {
+          font-size: 5rem !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .about {
+    .mission-philosophy {
+      .mission-container {
+        .mission-inner-container {
+          .mission-desc {
+            .mission-text-0 p {
+              font-size: 1.5rem;
+              line-height: 35px;
+            }
+            .mission-text-1 p {
+              font-size: 14px;
+              line-height: 18px;
+            }
+            .mission-text-2 p {
+              line-height: 40px;
+            }
+            .mission-text-3 div .mission-text-3-desc {
+              font-size: 13px;
+              line-height: 20px;
+            }
+          }
+          .mission-image-container {
+            .mission-image-1 {
+              height: 370px;
+              width: 290px;
+            }
+          }
+        }
+      }
+    }
+    .about-desc-3 {
+      .outer-div .inner-div p {
+        font-size: 4rem !important;
+        letter-spacing: 4px;
+        line-height: 90px;
+      }
+    }
+    .AboutUs {
+      .AboutUs-1-container {
+        gap: 5%;
+        .AboutUs-1-container-desc {
+          .about-text-3 {
+            font-size: 13px !important;
+          }
+          .about-text-4 p {
+            font-size: 33px;
+            line-height: 40px;
+          }
+          .about-text-5 p {
+            line-height: 17px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .about {
+    .AboutUs {
+      .AboutUs-1-container {
+        .AboutUs-1-container-desc {
+          .about-text-3 {
+            font-size: 12px !important;
+          }
+          .about-text-4 p {
+            font-size: 28px;
+            line-height: 36px;
+          }
+          .about-text-5 p {
+            line-height: 16px;
+          }
+        }
+      }
+    }
+    .mission-philosophy {
+      .mission-container {
+        .mission-inner-container {
+          padding-top: 10px;
+          .mission-desc {
+            .mission-text-0 p {
+              font-size: 1.4rem;
+            }
+            .mission-text-1 p {
+              font-size: 13px;
+              line-height: 16px;
+            }
+            .mission-text-2 p {
+              line-height: 40px;
+              font-size: 2rem;
+              letter-spacing: 4px;
+            }
+            .mission-text-3 div .mission-text-3-desc {
+              font-size: 13px;
+              line-height: 22px;
+            }
+          }
+          .mission-image-container {
+            .mission-image-1 {
+              height: 360px;
+              width: 280px;
+              left: 210px;
+            }
+            .mission-image-3 {
+              height: 180px;
+              width: 140px;
+              left: 40px;
+            }
+            .mission-image-2 {
+              height: 140px;
+              width: 140px;
+              bottom: 240px;
+              left: 260px;
+            }
+            .insta {
+              left: 200px;
             }
           }
         }
@@ -360,6 +447,461 @@
     }
   }
 }
-.ml {
-  margin-left: 10px;
+@media screen and (max-width: 900px) {
+  .about {
+    .mission-philosophy {
+      .mission-container {
+        .mission-inner-container {
+          .mission-desc {
+            .mission-text-0 {
+              p {
+                font-size: 1rem;
+                line-height: 30px;
+              }
+              .lines {
+                margin: 10px 0;
+              }
+            }
+            .mission-text-1 p {
+              font-size: 13px;
+              line-height: 16px;
+            }
+            .mission-text-2 p {
+              line-height: 32px;
+              font-size: 2rem;
+              letter-spacing: 3px;
+            }
+            .mission-text-3 div .mission-text-3-desc {
+              line-height: 19px;
+            }
+          }
+          .mission-image-container {
+            .mission-image-1 {
+              height: 310px;
+              width: 230px;
+            }
+            .mission-image-3 {
+              height: 170px;
+              width: 130px;
+            }
+            .mission-image-2 {
+              height: 140px;
+              width: 140px;
+              bottom: 240px;
+              left: 260px;
+            }
+            .insta {
+              left: 200px;
+            }
+          }
+        }
+      }
+    }
+    .AboutUs {
+      .AboutUs-1-container {
+        .AboutUs-1-container-desc {
+          .about-text-4 p {
+            font-size: 26px;
+          }
+          .about-text-5 p {
+            line-height: 17px;
+            font-size: 11px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about {
+    .about-desc-3 {
+      height: 800px;
+      .outer-div {
+        .inner-div {
+          width: 90%;
+          height: auto;
+          p {
+            font-size: 7rem !important;
+            letter-spacing: 4px;
+            line-height: 100px;
+          }
+        }
+      }
+    }
+    .AboutUs {
+      .AboutUs-1-container {
+        flex-flow: column;
+        align-items: center;
+        .AboutUs-1-container-img {
+          width: 90%;
+          height: 70vh;
+          flex-basis: unset;
+        }
+        .AboutUs-1-container-img-2 {
+          width: 90%;
+          height: 60vh;
+          flex-basis: unset;
+        }
+        .AboutUs-1-container-desc {
+          width: 97%;
+          .about-text-3 {
+            font-size: 20px !important;
+            margin-top: 20px;
+          }
+          .about-text-4 p {
+            font-size: 50px;
+            line-height: 80px;
+          }
+          .about-text-5 {
+            width: 95%;
+            p {
+              line-height: 28px;
+              font-size: 20px;
+            }
+          }
+        }
+
+        .AboutUs-1-container-desc-2 .container-desc-2 {
+          width: 90%;
+          margin: auto;
+          p {
+            font-size: 30px;
+            line-height: 50px;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+    .mission-philosophy {
+      .mission-container {
+        flex-direction: column;
+        .mission-inner-container {
+          margin-top: 380px;
+          .mission-desc {
+            width: 90%;
+            .mission-text-0 p {
+              font-size: 4rem;
+              line-height: 70px;
+            }
+            .mission-text-1 p {
+              font-size: 27px;
+              line-height: 45px;
+            }
+            .mission-text-2 p {
+              line-height: 100px;
+              font-size: 4rem;
+              letter-spacing: 5px;
+            }
+            .mission-text-3 div {
+              .mission-text-3-desc {
+                font-size: 18px;
+                line-height: 25px;
+              }
+              .mission-text-3-heading {
+                font-size: 25px;
+                line-height: 40px;
+              }
+            }
+          }
+          .mission-image-container {
+            .mission-image-1 {
+              height: 440px;
+              width: 360px;
+              left: unset;
+              right: 30px;
+              top: 60px;
+            }
+            .mission-image-3 {
+              height: 240px;
+              width: 200px;
+              top: 150px;
+            }
+            .mission-image-2 {
+              height: 200px;
+              width: 200px;
+              bottom: unset;
+              left: unset;
+              top: 400px;
+              right: 100px;
+            }
+            .insta {
+              width: 300px;
+              height: 80px;
+              font-size: 17px;
+              bottom: unset;
+              top: 670px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .about {
+    .mission-philosophy {
+      .mission-container {
+        .mission-inner-container {
+          .mission-image-container {
+            .mission-image-1 {
+              height: 400px;
+              width: 320px;
+            }
+            .mission-image-3 {
+              height: 220px;
+              width: 180px;
+            }
+            .mission-image-2 {
+              height: 190px;
+              width: 190px;
+            }
+            .insta {
+              left: 125px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .about {
+    .about-desc-3 {
+      height: 500px;
+      .outer-div {
+        .inner-div {
+          width: 90%;
+          height: auto;
+          p {
+            font-size: 4.5rem !important;
+            letter-spacing: 4px;
+            line-height: 60px;
+          }
+        }
+      }
+    }
+    .AboutUs {
+      .AboutUs-1-container {
+        .AboutUs-1-container-desc {
+          .about-text-3 {
+            font-size: 15px !important;
+          }
+          .about-text-4 p {
+            font-size: 35px;
+            line-height: 40px;
+          }
+          .about-text-5 {
+            p {
+              line-height: 20px;
+              font-size: 15px;
+            }
+          }
+        }
+
+        .AboutUs-1-container-desc-2 .container-desc-2 {
+          p {
+            font-size: 25px;
+            line-height: 40px;
+          }
+        }
+      }
+    }
+    .mission-philosophy {
+      .mission-container {
+        .mission-inner-container {
+          margin-top: 340px;
+          .mission-desc {
+            .mission-text-0 p {
+              font-size: 3rem;
+              line-height: 50px;
+            }
+            .mission-text-1 p {
+              font-size: 20px;
+              line-height: 35px;
+            }
+            .mission-text-2 p {
+              line-height: 80px;
+              font-size: 3.5rem;
+            }
+            .mission-text-3 div {
+              .mission-text-3-desc {
+                font-size: 18px;
+                line-height: 25px;
+              }
+              .mission-text-3-heading {
+                font-size: 15px;
+                line-height: 20px;
+              }
+            }
+          }
+          .mission-image-container {
+            .mission-image-1 {
+              height: 360px;
+              width: 280px;
+            }
+            .mission-image-3 {
+              height: 170px;
+              width: 124px;
+              left: 30px;
+            }
+            .mission-image-2 {
+              height: 170px;
+              width: 170px;
+              top: 370px;
+            }
+            .insta {
+              top: 600px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about {
+    .mission-philosophy {
+      .mission-container {
+        .mission-inner-container {
+          margin-top: 280px;
+          .mission-desc {
+            .mission-text-0 p {
+              font-size: 2rem;
+              line-height: 35px;
+            }
+            .mission-text-1 p {
+              font-size: 17px;
+              line-height: 30px;
+            }
+            .mission-text-2 p {
+              line-height: 60px;
+              font-size: 3rem;
+            }
+            .mission-text-3 div {
+              .mission-text-3-desc {
+                font-size: 14px;
+                line-height: 20px;
+              }
+            }
+          }
+          .mission-image-container {
+            .mission-image-1 {
+              height: 280px;
+              width: 210px;
+            }
+            .mission-image-3 {
+              height: 160px;
+              width: 110px;
+              top: 120px;
+            }
+            .mission-image-2 {
+              height: 141px;
+              width: 120px;
+              top: 288px;
+              right: 90px;
+            }
+            .insta {
+              top: 490px;
+              left: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .about {
+    .about-desc-3 {
+      .outer-div {
+        .inner-div {
+          p {
+            font-size: 3.5rem !important;
+            letter-spacing: 3px;
+            line-height: 50px;
+          }
+        }
+      }
+    }
+    .AboutUs {
+      .AboutUs-1-container {
+        .AboutUs-1-container-desc {
+          .about-text-3 {
+            font-size: 13px !important;
+          }
+          .about-text-4 p {
+            font-size: 30px;
+            line-height: 35px;
+          }
+          .about-text-5 {
+            p {
+              line-height: 20px;
+              font-size: 13px;
+            }
+          }
+        }
+
+        .AboutUs-1-container-desc-2 .container-desc-2 {
+          p {
+            font-size: 20px;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+    .mission-philosophy {
+      .mission-container {
+        .mission-inner-container {
+          margin-top: 230px;
+          .mission-desc {
+            .mission-text-0 p {
+              font-size: 2rem;
+              line-height: 35px;
+            }
+            .mission-text-1 p {
+              font-size: 17px;
+              line-height: 30px;
+            }
+            .mission-text-2 p {
+              line-height: 60px;
+              font-size: 3rem;
+            }
+            .mission-text-3 div {
+              .mission-text-3-desc {
+                font-size: 14px;
+                line-height: 20px;
+              }
+            }
+          }
+          .mission-image-container {
+            .mission-image-1 {
+              height: 230px;
+              width: 155px;
+              right: 10px;
+            }
+            .mission-image-3 {
+              height: 140px;
+              width: 110px;
+              top: 97px;
+              left: 10px;
+            }
+            .mission-image-2 {
+              height: 120px;
+              width: 96px;
+              top: 245px;
+              right: 45px;
+            }
+            .insta {
+              top: 400px;
+              left: 10px;
+              width: 284px;
+              height: 70px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
