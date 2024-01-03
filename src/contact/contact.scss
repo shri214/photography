@@ -18,7 +18,7 @@
         justify-content: flex-end;
         .left-box {
           height: 669px;
-          width: 444px !important;
+          width: 444px ;
           margin-top: 30px;
         }
         .right-box {
@@ -155,7 +155,7 @@
 }
 
 .color93C3ED {
-  color: #caccca !important;
+  color: #caccca ;
 }
 
 //mobile style
@@ -174,7 +174,7 @@
         .contact-container-fb {
           .left-box {
             height: 630px;
-            width: 430px !important;
+            width: 430px ;
           }
           .right-box {
             .forms {
@@ -224,8 +224,8 @@
       .contact-box {
         .contact-container-fb {
           .left-box {
-            height: 70vh;
-            width: 400px !important;
+            height: 600px;
+            width: 400px ;
           }
           .right-box {
             .forms {
@@ -286,8 +286,8 @@
       .contact-box {
         .contact-container-fb {
           .left-box {
-            height: 60vh;
-            width: 350px !important;
+            height: 550px;
+            width: 350px ;
           }
           .right-box {
             .forms {
@@ -345,6 +345,7 @@
 @media screen and (max-width: 800px) {
   .contact {
     .contact-container {
+      margin-top: 0px;
       .contact-box {
         flex-direction: column;
         align-items: center;
@@ -352,7 +353,7 @@
         .contact-container-fb {
           .left-box {
             height: 80vh;
-            width: 90vw !important;
+            width: 90vw ;
           }
           .right-box {
             padding: 20px;
