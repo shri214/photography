@@ -333,12 +333,15 @@
       .heightManage {
         height: 140vh !important;
         .container-desc2 {
-          bottom: 250px !important;
+          bottom: 225px !important;
         }
       }
       .home-press-containers {
         .home-press-container-desc {
           width: 80% !important;
+          .home-press-text-1{
+            top: 0px;
+          }
           .home-press-text-2 {
             margin: 20px !important;
             span {
