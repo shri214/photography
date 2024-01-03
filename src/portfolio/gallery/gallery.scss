@@ -69,13 +69,57 @@
       padding: 10px;
       .small-photo-container {
         width: 100%;
+        .photo-desc p {
+          font-size: 12px;
+          line-height: 19px;
+        }
         .big {
           width: 80%;
-          height: 70vh;
+          height: 510px;
         }
         .small {
           width: 100%;
-          height: 50vh;
+          height: 380px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .galleryGrid {
+    .photoGrid {
+      .small-photo-container {
+        .photo-desc p {
+          font-size: 11px;
+          line-height: 17px;
+        }
+        .big {
+          width: 80%;
+          height: 480px;
+        }
+        .small {
+          width: 100%;
+          height: 360px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .galleryGrid {
+    .photoGrid {
+      .small-photo-container {
+        .photo-desc p {
+          font-size: 10px;
+          line-height: 15px;
+        }
+        .big {
+          width: 80%;
+          height: 460px;
+        }
+        .small {
+          width: 100%;
+          height: 340px;
         }
       }
     }
@@ -106,12 +150,12 @@
         width: 100%;
         .big {
           width: 95%;
-          height: 55vh;
+          height: 400px;
           object-position: 0px;
         }
         .small {
           width: 95%;
-          height: 55vh;
+          height: 400px;
         }
         .rightBig2 {
           object-position: -340px 0;
@@ -136,25 +180,25 @@
       .containerleftSmall2 {
         position: absolute;
         left: 10%;
-        top: 85vh;
+        top: 645px;
         width: 80%;
       }
       .containerleftSmall2 {
-        top: 255vh;
+        top: 1865px;
       }
       .containerftBig1,
       .containerghtBig2 {
-        margin-top: 80vh;
+        margin-top: 610px;
       }
 
       .containerrightSmall3 {
-        margin-top: 86vh;
+        margin-top: 600px;
         img {
           object-position: 0px;
         }
       }
       .containerftBig3 {
-        margin-top: 86vh;
+        margin-top: 600px;
       }
     }
   }
@@ -177,18 +221,37 @@
     }
     .photoGrid {
       .small-photo-container {
+        .big,
+        .small {
+          height: 380px;
+        }
         div {
           .Add {
-            font-size: 90px;
-            line-height: 50px;
+            font-size: 85px;
+            line-height: 40px;
           }
           .photo-desc {
             p {
-              font-size: 20px;
-              line-height: 30px;
+              font-size: 17px;
+              line-height: 25px;
             }
           }
         }
+      }
+      .containerrightSmall1 {
+        top: 580px;
+      }
+      .containerleftSmall2 {
+        top: 1720px;
+      }
+      .containerftBig1,
+      .containerghtBig2 {
+        margin-top: 570px;
+      }
+
+      .containerftBig3,
+      .containerrightSmall3 {
+        margin-top: 560px;
       }
     }
   }
@@ -207,6 +270,10 @@
     }
     .photoGrid {
       .small-photo-container {
+        .big,
+        .small {
+          height: 355px;
+        }
         div {
           .Add {
             font-size: 70px;
@@ -215,10 +282,25 @@
           .photo-desc {
             p {
               font-size: 15px;
-              line-height: 33px;
+              line-height: 23px;
             }
           }
         }
+      }
+      .containerrightSmall1 {
+        top: 540px;
+      }
+      .containerleftSmall2 {
+        top: 1580px;
+      }
+      .containerftBig1,
+      .containerghtBig2 {
+        margin-top: 520px;
+      }
+
+      .containerftBig3,
+      .containerrightSmall3 {
+        margin-top: 510px;
       }
     }
   }
@@ -237,44 +319,32 @@
     }
     .photoGrid {
       .containerrightSmall1 {
-        top: 65vh;
+        top: 440px;
       }
       .containerftBig1,
       .containerghtBig2 {
-        margin-top: 65vh;
+        margin-top: 425px;
       }
       .containerleftSmall2 {
-        top: 195vh;
+        top: 1270px;
       }
-      .containerftBig3 {
-        margin-top: 68vh;
-      }
-      .containerrightSmall3 {
-        margin-top: 68vh;
+      .containerrightSmall3, .containerftBig3 {
+        margin-top: 430px;
       }
       .small-photo-container {
-        .big {
-          width: 95%;
-          height: 40vh;
-        }
+        .big,
         .small {
-          width: 95%;
-          height: 40vh;
+          height: 280px;
         }
         div {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          height: 140px;
-          justify-content: space-evenly;
           .Add {
-            font-size: 70px;
-            line-height: 30px;
+            font-size: 55px;
+            line-height: 20px;
           }
           .photo-desc {
             p {
-              font-size: 15px;
-              line-height: 22px;
+              font-size: 13px;
+              line-height: 17px;
             }
           }
         }
@@ -295,7 +365,6 @@
     .photoGrid {
       .containerrightSmall1 {
         top: 55vh;
-       
       }
       .containerftBig1,
       .containerghtBig2 {

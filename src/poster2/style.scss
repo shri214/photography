@@ -20,6 +20,17 @@
       font-family: gustera;
       text-align: center;
     }
+    .para4 {
+      width: 68% !important;
+      display: block !important;
+      margin: auto !important;
+      margin-top: 84px !important;
+      p {
+        font-family: Regular !important;
+        font-size: 23px !important;
+        line-height: 30px !important;
+      }
+    }
     div {
       display: flex;
       flex-flow: row;
@@ -43,27 +54,21 @@
   //   }
 }
 
-.para4 {
-  width: 68% !important;
-  display: block !important;
-  margin: auto !important;
-  margin-top: 84px !important;
-  p {
-    font-family: Regular !important;
-    font-size: 23px !important;
-    line-height: 30px !important;
-  }
-}
 
-.height80vh {
-  height: 80vh !important;
-}
+
+
 
 // mobile style
 
+@media screen and (max-width:1200px) {
+  .poster2{
+    height: 580px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .poster2 {
-    height: 75vh;
+    height: 500px;
     .poster2-desc {
       p {
         font-size: 100px;
@@ -78,7 +83,7 @@
 }
 @media screen and (max-width: 900px) {
   .poster2 {
-    height: 70vh !important;
+    height: 470px;
     .poster2-desc {
       p {
         font-size: 90px;
@@ -93,7 +98,7 @@
       }
     }
     div .contactUs {
-      font-size: 10px !important;
+      font-size: 10px ;
       font-weight: 600 !important;
     }
   }
@@ -101,21 +106,35 @@
 
 @media screen and (max-width: 800px) {
   .poster2 {
-    height: 70vh !important;
+    height: 460px;
     .poster2-desc p {
-      font-size: 70px;
-      line-height: 60px;
+      font-size: 90px;
+      line-height: 100px;
     }
+    div .contactUs {
+      font-size: 19px;
+  }
+  }
+}
+@media screen and (max-width: 700px) {
+  .poster2 {
+    .poster2-desc p {
+      font-size: 79px;
+    line-height: 74px;
+    }
+    div .contactUs {
+      font-size: 16px;
+  }
   }
 }
 @media screen and (max-width: 520px) {
   .poster2 {
     .poster2-desc {
-      width: 100%;
+      width: 80%;
       p {
-        font-size: 50px !important;
-        line-height: 50px !important;
-        letter-spacing: 5px !important;
+        font-size: 70px ;
+        line-height: 70px ;
+        letter-spacing: 5px;
       }
       .para4{
         p{

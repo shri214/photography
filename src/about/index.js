@@ -51,7 +51,6 @@ const posterData2 = [
     RECENT FILMS:`,
     // para2: "beautiful",
     para3: "Contact Us",
-  clSize:"height80vh"
   }
 ];
 export const About = () => {

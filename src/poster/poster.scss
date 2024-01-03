@@ -46,13 +46,13 @@
       }
     }
     .about-text-2 {
-      width: 400px;
+      width: 500px;
       p {
-        line-height: 22px;
+        line-height: 40px;
         text-align: center;
-        font-size: 13px;
+        font-size: 25px;
         font-weight: 500;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
       }
     }
   }
@@ -60,7 +60,8 @@
 
 .fs {
   p {
-    font-size: 123px !important;
+    font-size: 170px !important;
+    line-height: 200px !important;
   }
 }
 
@@ -84,15 +85,51 @@
 }
 
 //mobile style
+@media screen and (max-width: 1200px) {
+  .poster {
+    height: 600px;
+  }
+  .black-layer .about-text-2 p {
+    line-height: 33px;
+    font-size: 21px;
+  }
+  .fs p {
+    font-size: 155px !important;
+    line-height: 175px !important;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .poster {
+    .black-layer {
+      .about-text-2 {
+        width: 470px;
+        p {
+          line-height: 30px;
+          font-size: 21px;
+          letter-spacing: 0px;
+        }
+      }
+    }
+  }
+  .fs p {
+    font-size: 135px !important;
+    line-height: 150px !important;
+  }
+}
 
 @media screen and (max-width: 1000px) {
   .poster {
+    height: 550px;
     .black-layer {
       .about-text-1 p {
-        font-size: 70px !important;
-        line-height: 100px !important;
-        letter-spacing: 12px !important;
+        font-size: 70px;
+        line-height: 100px;
+        letter-spacing: 12px;
       }
+      .about-text-2 p {
+        line-height: 24px;
+        font-size: 18px;
+    }
       .about-text-2s {
         font-size: 11px;
         line-height: 20px;
@@ -104,10 +141,27 @@
       }
     }
   }
+  .fs p {
+    font-size: 120px !important;
+    line-height: 140px !important;
+  }
+}
+@media screen and (max-width: 900px) {
+  .poster {
+    height: 500px;
+    .black-layer .about-text-2 p {
+      line-height: 20px;
+      font-size: 15px;
+  }
+  }
+  .fs p {
+    font-size: 100px !important;
+    line-height: 120px !important;
+  }
 }
 @media screen and (max-width: 800px) {
   .poster {
-    height: 100vh !important;
+    height: 720px !important;
     .black-layer {
       .about-us {
         font-size: 30px;
@@ -141,6 +195,7 @@
 
 @media screen and (max-width: 660px) {
   .poster {
+    height: 650px !important;
     .black-layer {
       .about-text-1 p {
         font-size: 100px !important;
@@ -161,6 +216,7 @@
 }
 @media screen and (max-width: 500px) {
   .poster {
+    height: 600px !important;
     .black-layer {
       .about-us {
         font-size: 25px !important;
@@ -190,6 +246,7 @@
 }
 @media screen and (max-width: 400px) {
   .poster {
+    height: 480px !important;
     .black-layer {
       .about-us {
         font-size: 20px !important;

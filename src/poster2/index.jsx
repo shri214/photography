@@ -4,13 +4,13 @@ import "./style.scss";
 export const Poster2 = ({ data }) => {
   const navigate = useNavigate();
   return (
-    <div className={data.clSize ? `poster2  ${data.clSize}` : "poster2"}>
+    <div className="poster2">
       <img src={data.img} alt="poster2" />
       <div
         className={data.clFix ? `poster2-desc ${data.clFix}` : "poster2-desc"}
       >
         <p>{data.para1} </p>
-        { <p>{data.para2}</p>}
+        {<p>{data.para2}</p>}
         {data.para4 && (
           <div className="para4">
             <p>{data.para4}</p>
