@@ -12,10 +12,10 @@ import "./hero.scss";
 import { useSharedContext } from "../provider";
 
 export const Hero = ({ types }) => {
-  const { toggle, openFunction, toggleFunction } = useSharedContext();
+  const {openFunction } = useSharedContext();
  
   return (
-    <div className="hero">
+    <div className={types==="nav"?"hero stickyPosition":"hero"}>
       {types === "nav" ? (
         <p className="desc">
           {"INTERNATIONAL CINEMATIC \n WEDDING FILMMAKING"}

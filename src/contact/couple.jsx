@@ -177,7 +177,7 @@ export const Couple = () => {
           </select>
         </label>
       </div>
-      <button type="submit" className="btn">Submit</button>
+      <button type="submit" className="formBtn">Submit</button>
     </form>
   );
 };

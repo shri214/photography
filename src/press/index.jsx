@@ -108,14 +108,21 @@ export const Press = () => {
   return (
     <div className="press-container">
       <Hero types={"nav"} />
-      <Poster posterData={posterData} com={"press"}/>
-      {pressGalleryData.map((val, ind) => {
-        if (ind % 2 === 0) {
-          return <PressGallery order={"desc"} ind={ind} val={val} />;
-        } else {
-          return <PressGallery order={"img"} ind={ind} val={val} />;
-        }
-      })}
+      <Poster posterData={posterData} com={"press"} />
+      <div className="largerScreen">
+        {pressGalleryData.map((val, ind) => {
+          if (ind % 2 === 0) {
+            return <PressGallery order={"desc"} ind={ind} val={val} />;
+          } else {
+            return <PressGallery order={"img"} ind={ind} val={val} />;
+          }
+        })}
+      </div>
+      <div className="smallerScreen">
+        {pressGalleryData.map((val, ind) => {
+            return <PressGallery order={"img"} ind={ind} val={val} />;
+        })}
+        </div>
       <Poster2 data={posterData2[0]} />
     </div>
   );
