@@ -13,6 +13,17 @@ export const NaomiAndPeter = () => {
       <Hero types={"nav"} />
       <VideoPoster videoUrl={videoUrl} />
       <Vendor />
+      {/* <div className="iframeVideo" >
+        <iframe
+          src="https://player.vimeo.com/video/1757997250?controls=1"
+          width="1300"
+          height="662"
+          frameborder="0"
+          allow="autoplay; fullscreen"
+          allowfullscreen
+          title="Vimeo Video Player"
+        ></iframe>
+      </div> */}
     </div>
   );
 };

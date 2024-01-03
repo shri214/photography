@@ -61,6 +61,18 @@
     .navbar-root-container .navbar-container .link {
       font-size: 0.7rem !important;
     }
+    .videoSection{
+      .scrollBeings {
+        width: 25px !important;
+        p {
+          font-size: 10px !important;
+        }
+        .material-icons{
+          width: 22px !important;
+          font-size: 20px;
+        }
+      }
+    }
     .subheading_1 {
       p {
         font-size: 20px !important;
@@ -388,10 +400,24 @@
   }
 
   .home-container {
-    .videoSection .desc .header_2,
-    .home-container .videoSection .desc .header_5 {
-      font-size: 35px !important;
-      line-height: 45px !important;
+    .videoSection {
+        .scrollBeings {
+          bottom: 10%;
+          top:unset !important;
+          p {
+            display: none;
+          }
+          .material-icons{
+            width: 22px !important;
+            font-size: 20px;
+          }
+      }
+
+      .desc .header_2,
+      .home-container .videoSection .desc .header_5 {
+        font-size: 35px !important;
+        line-height: 45px !important;
+      }
     }
     .subheading_1 {
       p {

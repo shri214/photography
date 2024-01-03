@@ -88,6 +88,10 @@ export const Home = () => {
           <span className="header_4 mb">Celebration</span>
           <h1 className="header_5 mb">INTO YOUR FILM</h1>
         </div>
+        <div className="scrollBeings">
+          <p>s<br/>c<br/>r<br/>o<br/>l<br/>l<br/>T<br/>o<br/>B<br/>e<br/>B<br/>e<br/>i<br/>n<br/>g</p>
+          <span className="material-icons">arrow_downward_alt</span>
+        </div>
       </div>
       <div className="subheading_1">
         <p>NAMED BY HARPER'S BAZAAR AS ONE OF</p>

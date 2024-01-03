@@ -29,7 +29,7 @@
 
   .vendor {
     background-color: #f3e2d0;
-    height: 70vh;
+    height: 530px;
     .width1200 {
       width: 1200px;
       display: block;
@@ -118,13 +118,488 @@
                 font-family: aRegular;
                 font-size: 13px;
                 line-height: 20px;
-               
               }
             }
             p {
               font-family: aRegular;
               font-size: 13px;
               line-height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//mobile style
+@media screen and (max-width: 1220px) {
+  .stories-container {
+    .vendor {
+      height: 510px;
+      .width1200 {
+        width: 100%;
+        .flexDisplay {
+          .fb {
+            .firstImage {
+              width: 185px;
+              height: 256px;
+            }
+            .secondImage {
+              width: 250px;
+              height: 365px;
+            }
+            .heading {
+              h1 {
+                font-size: 45px;
+                line-height: 80px;
+              }
+              p {
+                font-size: 40px;
+                line-height: 40px;
+              }
+              .lines {
+                margin-top: 40px;
+              }
+            }
+            .desc {
+              div {
+                p:last-child {
+                  font-size: 12px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .stories-container {
+    .videoPoster{
+      height: auto;
+    }
+    .vendor {
+      height: 490px;
+      .width1200 {
+        .flexDisplay {
+          .fb {
+            .firstImage {
+              width: 170px;
+              height: 240px;
+            }
+            .secondImage {
+              width: 245px;
+              height: 350px;
+            }
+            .heading {
+              h1 {
+                font-size: 40px;
+                line-height: 65px;
+              }
+              p {
+                font-size: 33px;
+                line-height: 35px;
+              }
+              .lines {
+                margin-top: 30px;
+                margin-bottom: 20px;
+              }
+            }
+            .desc {
+              p {
+                font-size: 11px;
+              }
+              div {
+                p:last-child,
+                p {
+                  font-size: 11px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .stories-container {
+    .vendor {
+      height: 470px;
+      .width1200 {
+        .flexDisplay {
+          .fb {
+            .firstImage {
+              width: 160px;
+              height: 230px;
+            }
+            .secondImage {
+              width: 235px;
+              height: 340px;
+            }
+            .heading {
+              h1 {
+                font-size: 35px;
+                line-height: 50px;
+              }
+              p {
+                font-size: 29px;
+                line-height: 30px;
+              }
+              .lines {
+                margin-top: 28px;
+              }
+            }
+            .desc {
+              p {
+                font-size: 10px;
+              }
+              div {
+                p:last-child {
+                  font-size: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .stories-container {
+    .vendor {
+      height: 400px;
+      .width1200 {
+        .flexDisplay {
+          .fb {
+            .firstImage {
+              width: 140px;
+              height: 200px;
+            }
+            .secondImage {
+              width: 200px;
+              height: 290px;
+            }
+            .heading {
+              h1 {
+                font-size: 30px;
+                line-height: 50px;
+              }
+              p {
+                font-size: 25px;
+                line-height: 25px;
+              }
+              .lines {
+                margin-top: 15px;
+              }
+            }
+            .desc {
+              p {
+                font-size: 10px;
+              }
+              div {
+                p:last-child {
+                  font-size: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .stories-container {
+    .vendor {
+      height: 1200px;
+      .width1200 {
+        position: relative;
+        .flexDisplay {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 50px;
+          .first-container {
+            margin-top: 300px;
+          }
+          .second-container {
+            width: 100%;
+          }
+          .fb {
+            .firstImage {
+              width: 200px;
+              height: 300px;
+            }
+            .secondImage {
+              width: 330px;
+              height: 390px;
+            }
+            .heading {
+              position: absolute;
+              top: 20px;
+              left: 50px;
+              h1 {
+                font-size: 80px;
+                line-height: 80px;
+              }
+              p {
+                font-size: 60px;
+                line-height: 125px;
+              }
+              .lines {
+                margin-top: 15px;
+                width: 100px;
+              }
+            }
+            .desc {
+              p {
+                font-size: 25px;
+                line-height: 33px;
+                flex-basis: 45%;
+              }
+              div {
+                p:first-child {
+                  font-size: 37px;
+                  line-height: 50px;
+                  letter-spacing: 9px;
+                  margin-bottom: 10px;
+                }
+                p:last-child {
+                  font-size: 25px;
+                  line-height: 33px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .stories-container {
+    .vendor {
+      height: 1000px;
+      .width1200 {
+        .flexDisplay {
+          .first-container {
+            margin-top: 190px;
+          }
+          .fb {
+            .firstImage {
+              width: 180px;
+              height: 270px;
+            }
+            .secondImage {
+              width: 300px;
+              height: 350px;
+            }
+            .heading {
+              left: 40px;
+              h1 {
+                font-size: 70px;
+                line-height: 70px;
+              }
+              p {
+                font-size: 50px;
+                line-height: 100px;
+              }
+              .lines {
+                width: 80px;
+              }
+            }
+            .desc {
+              p {
+                font-size: 21px;
+                line-height: 27px;
+              }
+              div {
+                p:first-child {
+                  font-size: 32px;
+                  line-height: 40px;
+                  letter-spacing: 5px;
+                }
+                p:last-child {
+                  font-size: 21px;
+                  line-height: 27px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .stories-container {
+    .vendor {
+      height: 880px;
+      .width1200 {
+        .flexDisplay {
+          padding: 20px;
+          .first-container {
+            margin-top: 150px;
+          }
+          .fb {
+            .firstImage {
+              width: 160px;
+              height: 240px;
+            }
+            .secondImage {
+              width: 260px;
+              height: 300px;
+            }
+            .heading {
+              left: 30px;
+              h1 {
+                font-size: 55px;
+                line-height: 55px;
+              }
+              p {
+                font-size: 40px;
+                line-height: 80px;
+              }
+              .lines {
+                width: 60px;
+              }
+            }
+            .desc {
+              p {
+                font-size: 19px;
+                line-height: 24px;
+              }
+              div {
+                p:first-child {
+                  font-size: 28px;
+                  line-height: 30px;
+                  letter-spacing: 4px;
+                }
+                p:last-child {
+                  font-size: 19px;
+                  line-height: 24px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .stories-container {
+    .vendor {
+      height: 700px;
+      .width1200 {
+        .flexDisplay {
+          padding: 10px;
+          .first-container {
+            margin-top: 150px;
+            gap: 15px;
+          }
+          .fb {
+            .firstImage {
+              width: 140px;
+              height: 200px;
+            }
+            .secondImage {
+              width: 210px;
+              height: 245px;
+            }
+            .heading {
+              left: 20px;
+              h1 {
+                font-size: 40px;
+                line-height: 40px;
+              }
+              p {
+                font-size: 30px;
+                line-height: 60px;
+              }
+              .lines {
+                width: 50px;
+              }
+            }
+            .desc {
+              p {
+                font-size: 17px;
+                line-height: 20px;
+              }
+              div {
+                p:first-child {
+                  font-size: 24px;
+                  line-height: 25px;
+                  letter-spacing: 3px;
+                }
+                p:last-child {
+                  font-size: 17px;
+                  line-height: 20px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .stories-container {
+    .vendor {
+      height: 600px;
+      .width1200 {
+        .flexDisplay {
+          .first-container {
+            margin-top: 130px;
+            gap: 10px;
+          }
+          .fb {
+            .firstImage {
+              width: 120px;
+              height: 150px;
+            }
+            .secondImage {
+              width: 160px;
+            }
+            .heading {
+              left: 10px;
+              h1 {
+                font-size: 30px;
+                line-height: 30px;
+              }
+              p {
+                font-size: 23px;
+                line-height: 45px;
+              }
+              .lines {
+                width: 40px;
+              }
+            }
+            .desc {
+              p {
+                font-size: 15px;
+                line-height: 15px;
+              }
+              div {
+                p:first-child {
+                  font-size: 20px;
+                  line-height: 22px;
+                  letter-spacing: 2px;
+                }
+                p:last-child {
+                  font-size: 15px;
+                  line-height: 15px;
+                }
+              }
             }
           }
         }

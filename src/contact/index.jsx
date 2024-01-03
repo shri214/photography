@@ -81,7 +81,7 @@ export const Contact = () => {
                 ) : location.pathname === "/contact/editorial" ? (
                   <Editorial />
                 ) : (
-                  ""
+                  <Couple />
                 )}
               </div>
             </div>
