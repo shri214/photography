@@ -1,0 +1,481 @@
+.frequently-container {
+  margin-top: 50px;
+
+  .f-outer-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    align-items: center;
+    margin: auto;
+   
+    .smaller,
+    .bigger {
+      height: 406px;
+      width: 340px;
+      position: relative;
+      .f-container-img {
+        background-image: url("https://static.showit.co/800/sXfgDvqOQNqpkd7k9gow3A/129082/kleinfeldxlonesomerawphotos-brianleahyphoto-725_1.jpg");
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+      }
+    }
+    .bigger {
+      height: 609px;
+      width: 384px;
+      .f-container-img {
+        background-image: url("https://static.showit.co/800/4fhf281FTUOEWzjiWcjMIQ/129082/1-_h2a0577.jpg");
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .f-desc {
+      .f-heading {
+        h1 {
+          font-size: 2.5rem;
+          letter-spacing: 3px;
+          font-family: kenjo I;
+          font-weight: 400;
+          text-align: center;
+        }
+        .line {
+          width: 50px;
+          border: 1px solid #dedefd;
+          display: block;
+          margin: 15px auto;
+        }
+      }
+      .sets {
+        padding: 0px 50px;
+        margin-top: 50px;
+        .question {
+          font-size: 0.9rem;
+          font-weight: 500;
+          font-family: brand;
+          letter-spacing: 3px;
+          text-align: center;
+          line-height: 1.6rem;
+        }
+        .ans {
+          font-size: 0.9rem;
+          text-align: center;
+          margin: 15px 0px;
+          letter-spacing: 2px;
+        }
+        .hidden {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+//mobile styles
+
+@media screen and (max-width: 1300px) {
+  .frequently-container {
+    .f-outer-container {
+      width: 100%;
+      .smaller,
+      .bigger {
+        height: 390px;
+        width: 330px;
+      }
+      .bigger {
+        height: 590px;
+        width: 370px;
+      }
+      .f-desc {
+        .f-heading {
+          h1 {
+            font-size: 2.2rem;
+            line-height: 3rem;
+          }
+        }
+        .sets {
+          padding: 0px 45px;
+          margin-top: 45px;
+          .question {
+            font-size: 0.8rem;
+            line-height: 1.4rem;
+          }
+          .ans {
+            font-size: 0.8rem;
+            margin: 12px 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .frequently-container {
+    .f-outer-container {
+      .smaller,
+      .bigger {
+        height: 370px;
+        width: 315px;
+      }
+      .bigger {
+        height: 565px;
+        width: 358px;
+      }
+      .f-desc {
+        .f-heading {
+          h1 {
+            font-size: 2.2rem;
+            line-height: 3rem;
+          }
+        }
+        .sets {
+          padding: 0px 45px;
+          margin-top: 45px;
+          .question {
+            font-size: 0.8rem;
+            line-height: 1.4rem;
+          }
+          .ans {
+            font-size: 0.7rem;
+            margin: 12px 0px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .frequently-container {
+    .f-outer-container {
+      .smaller,
+      .bigger {
+        height: 329px;
+        width: 290px;
+      }
+      .bigger {
+        height: 540px;
+        width: 340px;
+      }
+      .f-desc {
+        .f-heading {
+          h1 {
+            font-size: 1.8rem;
+            line-height: 2.2rem;
+            letter-spacing: 1px;
+          }
+        }
+        .sets {
+          padding: 0px 20px;
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1100px) {
+  .frequently-container {
+    .f-outer-container {
+      .smaller,
+      .bigger {
+        height: 300px;
+        width: 250px;
+      }
+      .bigger {
+        height: 500px;
+        width: 300px;
+      }
+      .f-desc {
+        .f-heading {
+          h1 {
+            font-size: 1.8rem;
+            line-height: 2.2rem;
+            letter-spacing: 1px;
+          }
+        }
+        .sets {
+          padding: 0px 10px;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .frequently-container {
+    .f-outer-container {
+      grid-column-gap: 15px;
+      .smaller,
+      .bigger {
+        height: 290px;
+        width: 235px;
+      }
+      .bigger {
+        height: 475px;
+        width: 285px;
+      }
+      .f-desc {
+        .f-heading {
+          h1 {
+            font-size: 1.6rem;
+            line-height: 2rem;
+            letter-spacing: 1px;
+          }
+        }
+        .sets {
+          padding: 0px;
+          margin-top: 20px;
+          .question {
+            font-size: 0.7rem;
+            line-height: 1.2rem;
+          }
+          .ans {
+            font-size: 0.6rem;
+            line-height: 1rem;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .frequently-container {
+    .f-outer-container {
+      .smaller,
+      .bigger {
+        height: 250px;
+        width: 190px;
+      }
+      .bigger {
+        height: 420px;
+        width: 230px;
+      }
+      .f-desc {
+        .f-heading {
+          h1 {
+            font-size: 1.4rem;
+            line-height: 1.8rem;
+            letter-spacing: 1px;
+          }
+        }
+        .sets {
+          margin-top: 10px;
+          .question {
+            font-size: 0.6rem;
+            line-height: 1rem;
+            font-weight: 600;
+          }
+          .ans {
+            font-size: 0.5rem;
+            line-height: 0.8rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .frequently-container {
+    .f-outer-container {
+      width: 90%;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      .smaller,
+      .bigger {
+        height: 650px;
+        width: 500px;
+      }
+      .visibility {
+        display: none;
+      }
+      .f-desc {
+        .f-heading {
+          h1 {
+            font-size: 3.5rem;
+            line-height: 5rem;
+            letter-spacing: 5px;
+            margin-top: 50px;
+          }
+          .line {
+            margin: 20px auto;
+          }
+        }
+        .sets {
+          width: 500px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: auto;
+          margin-top: 60px;
+          .question {
+            font-size: 2rem;
+            line-height: 3rem;
+            font-weight: 400;
+          }
+          .ans {
+            font-size: 1.8rem;
+            margin: 12px 0px;
+            line-height: 3rem;
+            font-weight: 300;
+          }
+          .hidden {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .frequently-container {
+    .f-outer-container {
+      width: 100%;
+      .smaller,
+      .bigger {
+        height: 600px;
+        width: 450px;
+      }
+      .f-desc {
+        .f-heading {
+          h1 {
+            font-size: 3rem;
+            line-height: 4rem;
+            letter-spacing: 4px;
+            margin-top: 45px;
+          }
+        }
+        .sets {
+          width: 450px;
+          margin-top: 60px;
+          .question {
+            font-size: 1.8rem;
+            line-height: 2.5rem;
+            font-weight: 400;
+          }
+          .ans {
+            font-size: 1.6rem;
+            margin: 12px 0px;
+            line-height: 2.2rem;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .frequently-container {
+    .f-outer-container {
+      .smaller,
+      .bigger {
+        height: 550px;
+        width: 400px;
+      }
+      .f-desc {
+        .f-heading {
+          h1 {
+            font-size: 2.7rem;
+            line-height: 3.4rem;
+            letter-spacing: 3px;
+            margin-top: 40px;
+          }
+        }
+        .sets {
+          width: 400px;
+          margin-top: 50px;
+          .question {
+            font-size: 1.7rem;
+            line-height: 2.3rem;
+            font-weight: 400;
+          }
+          .ans {
+            font-size: 1.5rem;
+            line-height: 2rem;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .frequently-container {
+    .f-outer-container {
+      .smaller,
+      .bigger {
+        height: 500px;
+        width: 100%;
+      }
+      .f-desc {
+        .f-heading {
+          h1 {
+            font-size: 2.4rem;
+            line-height: 3rem;
+            letter-spacing: 2px;
+            margin-top: 30px;
+          }
+        }
+        .sets {
+          width: 100%;
+          margin-top: 40px;
+          .question {
+            font-size: 1.5rem;
+            line-height: 2rem;
+            font-weight: 400;
+            margin: 5px;
+          }
+          .ans {
+            font-size: 1.3rem;
+            line-height: 1.8rem;
+            font-weight: 300;
+            margin: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .frequently-container {
+    .f-outer-container {
+      .smaller,
+      .bigger {
+        height: 400px;
+      }
+      .f-desc {
+        .f-heading {
+          h1 {
+            font-size: 2rem;
+            line-height: 2.7rem;
+          }
+        }
+        .sets {
+          margin-top: 30px;
+          .question {
+            font-size: 1.4rem;
+            line-height: 1.8rem;
+          }
+          .ans {
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}

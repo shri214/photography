@@ -133,7 +133,7 @@
   }
   .carousel {
     width: 100%;
-    height: 650px;
+    height: 700px;
     position: relative;
     margin-top: 40px;
     img {
@@ -151,34 +151,36 @@
       flex-direction: column;
       align-items: center;
       justify-content: space-between;
-      width: 70%;
-      height: 300px;
+      width: 1000px;
+      height: 400px;
       .text1 {
         color: white;
-        font-size: 4rem;
+        font-size: 5rem;
         font-family: gustera;
-        line-height: 4rem;
-        letter-spacing: 3px;
+        line-height: 5rem;
+        letter-spacing: 4px;
         margin-bottom: 30px;
       }
       .text2 {
         color: white;
-        font-size: 3rem;
-        line-height: 3.5rem;
+        font-size: 3.5rem;
+        line-height: 4.5rem;
         font-family: kenjo I;
-        letter-spacing: 2px;
+        letter-spacing: 5px;
       }
       .line {
-        width: 80px;
+        width: 100px;
         margin: 20px 0px;
         border: 1px solid #d1e1df;
       }
       button {
         border: none;
         color: white;
-        font-size: 2rem;
+        font-size: 1.2rem;
         background-color: transparent;
-        letter-spacing: 1px;
+        font-weight: 500;
+        letter-spacing: 7px;
+        text-transform: uppercase;
       }
     }
   }
@@ -313,7 +315,23 @@
         width: 620px;
       }
     }
-
+    .carousel {
+      height: 680px;
+      .absolute {
+        width: 950px;
+        height: 380px;
+        .text1 {
+          font-size: 4.7rem;
+          line-height: 5rem;
+          letter-spacing: 4px;
+        }
+        .text2 {
+          color: white;
+          font-size: 3.2rem;
+          line-height: 4.2rem;
+        }
+      }
+    }
     .stories {
       .story {
         height: 700px;
@@ -409,18 +427,17 @@
       }
     }
     .carousel {
+      height: 650px;
       .absolute {
         width: 800px;
         .text1 {
-          font-size: 3.5rem;
+          font-size: 4.3rem;
           line-height: 3.5rem;
         }
         .text2 {
-          font-size: 2.6rem;
-          line-height: 3rem;
-        }
-        button {
-          font-size: 1.8rem;
+          font-size: 3rem;
+          line-height: 3.5rem;
+          letter-spacing: 4px;
         }
       }
     }
@@ -533,6 +550,20 @@
       .smaller {
         height: 340px;
         width: 250px;
+      }
+    }
+    .carousel {
+      height: 620px;
+      .absolute {
+        width: 700px;
+        .text1 {
+          font-size: 4rem;
+        }
+        .text2 {
+          font-size: 2.8rem;
+          line-height: 3rem;
+          letter-spacing: 3px;
+        }
       }
     }
     .stories {
@@ -648,21 +679,18 @@
       }
     }
     .carousel {
-      height: 650px;
+      height: 600px;
       .absolute {
-        width: 700px;
-        height: 260px;
+        width: 600px;
         .text1 {
-          font-size: 3.1rem;
-          line-height: 3.1rem;
-          margin-bottom: 20px;
+          font-size: 3rem;
+          line-height: 3.5rem;
+          letter-spacing: 5px;
         }
         .text2 {
-          font-size: 2.3rem;
+          font-size: 2.4rem;
           line-height: 2.5rem;
-        }
-        button {
-          font-size: 1.5rem;
+          letter-spacing: 2px;
         }
       }
     }
@@ -784,6 +812,24 @@
       }
       .lines {
         margin: 30px 0;
+      }
+    }
+    .carousel {
+      height: 650px;
+      .absolute {
+        width: 600px;
+        height: 450px;
+        .text1 {
+          font-size: 5rem;
+          line-height: 5rem;
+          letter-spacing: 5px;
+        }
+        .text2 {
+          font-size: 3rem;
+          line-height: 3rem;
+          letter-spacing: 5px;
+          text-align: center;
+        }
       }
     }
     .image-container {
@@ -927,18 +973,19 @@
       }
     }
     .carousel {
+      height: 600px;
       .absolute {
-        height: 360px;
+        width: 500px;
+        height: 400px;
         .text1 {
-          font-size: 3.5rem;
-          line-height: 3.5rem;
+          font-size: 4rem;
+          line-height: 4.5rem;
+          letter-spacing: 4px;
         }
         .text2 {
           font-size: 2.8rem;
           line-height: 2.8rem;
-        }
-        button {
-          font-size: 1.8rem;
+          letter-spacing: 3px;
         }
       }
     }
@@ -1064,6 +1111,7 @@
       margin-top: 25px;
       .absolute {
         height: 330px;
+        width: 95%;
         .text1 {
           font-size: 3rem;
           line-height: 3rem;
@@ -1071,9 +1119,6 @@
         .text2 {
           font-size: 2.3rem;
           line-height: 2.5rem;
-        }
-        button {
-          font-size: 1.6rem;
         }
       }
     }
@@ -1088,7 +1133,7 @@
           }
           .texts1 {
             top: 68px;
-            left: 213px;
+            left: 200px;
             p {
               font-size: 5rem;
               letter-spacing: 5px;
@@ -1112,7 +1157,6 @@
             }
           }
         }
-       
       }
     }
   }
@@ -1195,6 +1239,7 @@
       }
     }
     .carousel {
+      height: 550px;
       .absolute {
         height: 300px;
         .text1 {
@@ -1231,12 +1276,10 @@
             .headings {
               font-size: 2rem;
             }
-            
           }
 
           a {
             margin-left: 2%;
-            
           }
         }
       }
@@ -1318,7 +1361,7 @@
       }
     }
     .carousel {
-      height: 550px;
+      height: 500px;
       .absolute {
         height: 250px;
         .text1 {
@@ -1344,14 +1387,14 @@
           margin-top: 40px;
           img {
             height: 313px;
-            width: 213px;        
+            width: 213px;
           }
           .texts1 {
             top: 50px;
             left: 113px;
             p {
               font-size: 3.5rem;
-              letter-spacing: 3px;          
+              letter-spacing: 3px;
             }
           }
           .texts2 {
@@ -1374,7 +1417,6 @@
             }
           }
         }
-       
       }
     }
   }

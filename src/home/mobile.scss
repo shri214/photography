@@ -61,13 +61,13 @@
     .navbar-root-container .navbar-container .link {
       font-size: 0.7rem !important;
     }
-    .videoSection{
+    .videoSection {
       .scrollBeings {
         width: 25px !important;
         p {
           font-size: 10px !important;
         }
-        .material-icons{
+        .material-icons {
           width: 22px !important;
           font-size: 20px;
         }
@@ -401,16 +401,16 @@
 
   .home-container {
     .videoSection {
-        .scrollBeings {
-          bottom: 10%;
-          top:unset !important;
-          p {
-            display: none;
-          }
-          .material-icons{
-            width: 22px !important;
-            font-size: 20px;
-          }
+      .scrollBeings {
+        bottom: 10%;
+        top: unset !important;
+        p {
+          display: none;
+        }
+        .material-icons {
+          width: 22px !important;
+          font-size: 20px;
+        }
       }
 
       .desc .header_2,
@@ -439,7 +439,7 @@
     .photo-grid {
       width: 100% !important;
       position: relative;
-      height: 170vh;
+      height: 1240px;
       .right-grid {
         .right-grid-img-1 {
           width: 100% !important;
@@ -676,7 +676,7 @@
     }
 
     .photo-grid {
-      height: 135vh !important;
+      height: 985px !important;
       .left-grid {
         flex-basis: 48% !important;
         .left-grid-img-1 {
@@ -729,7 +729,7 @@
     }
     .photo-container {
       height: 290px;
-      .img4{
+      .img4 {
         left: -15px !important;
         // width: 250px !important;
         // p{

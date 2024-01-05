@@ -1,14 +1,20 @@
 import React from "react";
 import { Hero } from "../footer/Hero";
 import { Poster } from "../poster";
+import { useInView } from "react-intersection-observer";
 import "./review1.scss";
 import "./review2.scss";
 import "./style.scss";
 import { ProcessTree } from "./processTree";
 import { Reviews } from "./review2and3";
 import { ExperienceCarousel } from "./experieceCarousel";
+import { FrequentlyQuestion } from "./frequentlyQuestion";
 
 export const Experience = () => {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    threshold: 0.5,
+  });
   const posterData = [
     {
       img: "https://static.showit.co/1600/uYsSwoDbTFyz-sxN8PjIsQ/129082/kleinfeldxtulum-681_websize.jpg",
@@ -139,18 +145,24 @@ export const Experience = () => {
         <p className="lines"></p>
         <p className="desc2">KARI & JOHN</p>
       </div>
-      <div className="image-container">
-        <img
-          className="smaller"
-          src="https://static.showit.co/800/ccRCWHoCQ0qaBE8_yOQjSg/129082/bm_173.jpg"
-          alt="smaller img"
-        />
-        <img
-          className="bigger"
-          src="https://static.showit.co/1200/JTXIQAY2QTybFIX5DErl2w/129082/bm_347.jpg"
-          alt="bigger img"
-        />
+      <div ref={ref} className="image-container">
+        {inView && (
+          <>
+            <img
+              className="smaller"
+              src="https://static.showit.co/800/ccRCWHoCQ0qaBE8_yOQjSg/129082/bm_173.jpg"
+              alt="smaller img"
+            />
+            <img
+              className="bigger"
+              src="https://static.showit.co/1200/JTXIQAY2QTybFIX5DErl2w/129082/bm_347.jpg"
+              alt="bigger img"
+            />
+          </>
+        )}
       </div>
+
+      <FrequentlyQuestion />
       <ExperienceCarousel />
       <div className="stories">
         <div className="story">
