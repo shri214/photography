@@ -2,31 +2,26 @@
   position: relative;
   height: 88vh;
   width: 100%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
   .poster-img {
     height: inherit;
     width: inherit;
     object-fit: cover;
     object-position: right;
   }
-  .black-layer {
-    position: absolute;
-    height: inherit;
-    width: inherit;
-    top: 0px;
-    left: 0;
-    background-color: black;
-    opacity: 0.5;
-    color: #fff;
+
+  .poster-desc {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     align-items: center;
     justify-content: center;
-    .poster-desc {
-      width: 1200px;
-      display: flex;
-      flex-flow: column;
-      align-items: center;
-      justify-content: center;
+    position: absolute;
+    color: #fff;
+    .about-us-e {
+      font-size: 14px;
     }
     .about-us {
       font-size: 12px;
@@ -55,6 +50,29 @@
         letter-spacing: 1px;
       }
     }
+    .about-text-1e p {
+      font-family: "gustera";
+      font-size: 7rem;
+      line-height: 80px;
+    }
+    .about-text-2e p {
+      margin-top: 69px;
+      width: 337px;
+      text-align: center;
+      font-family: "brand";
+      font-weight: 500;
+      line-height: 23px;
+    }
+  }
+
+  .black-layer {
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    top: 0px;
+    left: 0;
+    background-color: black;
+    opacity: 0.5;
   }
 }
 
@@ -65,9 +83,6 @@
   }
 }
 
-.height80 {
-  height: 80vh !important;
-}
 .fsN {
   transform: rotate(0deg) !important;
   margin-bottom: 20px !important;
@@ -88,10 +103,25 @@
 @media screen and (max-width: 1200px) {
   .poster {
     height: 600px;
-  }
-  .black-layer .about-text-2 p {
-    line-height: 33px;
-    font-size: 21px;
+    .poster-desc {
+      .about-us-e {
+        font-size: 13px;
+      }
+      .about-text-2 p {
+        line-height: 33px;
+        font-size: 21px;
+      }
+      .about-text-1e p {
+        font-size: 6rem;
+        line-height: 70px;
+      }
+      .about-text-2e p {
+        margin-top: 60px;
+        width: 323px;
+        font-size: 15px;
+        line-height: 22px;
+      }
+    }
   }
   .fs p {
     font-size: 155px !important;
@@ -100,7 +130,10 @@
 }
 @media screen and (max-width: 1100px) {
   .poster {
-    .black-layer {
+    .poster-desc {
+      .about-us-e {
+        font-size: 12px;
+      }
       .about-text-2 {
         width: 470px;
         p {
@@ -108,6 +141,15 @@
           font-size: 21px;
           letter-spacing: 0px;
         }
+      }
+      .about-text-2e p {
+        width: 295px;
+        font-size: 13px;
+        line-height: 20px;
+      }
+      .about-text-1e p {
+        font-size: 5rem;
+        line-height: 55px;
       }
     }
   }
@@ -120,7 +162,20 @@
 @media screen and (max-width: 1000px) {
   .poster {
     height: 550px;
-    .black-layer {
+    .poster-desc {
+      .about-us-e {
+        font-size: 11px;
+      }
+      .about-text-2e p {
+        width: 260px;
+        font-size: 12px;
+        line-height: 19px;
+      }
+
+      .about-text-1e p {
+        font-size: 4rem;
+        line-height: 50px;
+      }
       .about-text-1 p {
         font-size: 70px;
         line-height: 100px;
@@ -129,16 +184,17 @@
       .about-text-2 p {
         line-height: 24px;
         font-size: 18px;
-    }
+      }
       .about-text-2s {
         font-size: 11px;
         line-height: 20px;
       }
-      .width64 {
-        width: 60%;
-        font-size: 11px;
-        line-height: 20px;
-      }
+    }
+
+    .width64 {
+      width: 60%;
+      font-size: 11px;
+      line-height: 20px;
     }
   }
   .fs p {
@@ -149,10 +205,26 @@
 @media screen and (max-width: 900px) {
   .poster {
     height: 500px;
-    .black-layer .about-text-2 p {
-      line-height: 20px;
-      font-size: 15px;
-  }
+    .poster-desc {
+      .about-us-e {
+        font-size: 10px;
+      }
+      .about-text-2 p {
+        line-height: 20px;
+        font-size: 15px;
+      }
+      .about-text-2e p {
+        width: 255px;
+        font-size: 10px;
+        line-height: 16px;
+        margin-top: 45px;
+      }
+
+      .about-text-1e p {
+        font-size: 4rem;
+        line-height: 50px;
+      }
+    }
   }
   .fs p {
     font-size: 100px !important;
@@ -161,8 +233,8 @@
 }
 @media screen and (max-width: 800px) {
   .poster {
-    height: 720px !important;
-    .black-layer {
+    height: 720px;
+    .poster-desc {
       .about-us {
         font-size: 30px;
       }
@@ -170,17 +242,8 @@
         width: 60px;
       }
       .about-text-1 p {
-        font-size: 131px !important;
-        line-height: 200px !important;
-      }
-      .width64 {
-        width: 80%;
-        font-size: 25px;
-        line-height: 40px;
-      }
-      .fsN p {
-        font-size: 65px !important;
-        line-height: 130px !important;
+        font-size: 131px;
+        line-height: 200px;
       }
       .about-text-2 {
         width: 80%;
@@ -189,80 +252,153 @@
           font-size: 30px;
         }
       }
+      .about-us-e {
+        font-size: 30px;
+      }
+      .about-text-2e p {
+        width: 495px;
+        font-size: 23px;
+        line-height: 46px;
+        margin-top: 90px;
+      }
+
+      .about-text-1e p {
+        font-size: 9rem;
+        line-height: 120px;
+      }
+    }
+    .width64 {
+      width: 80%;
+      font-size: 25px;
+      line-height: 40px;
+    }
+    .fsN p {
+      font-size: 65px !important;
+      line-height: 130px !important;
     }
   }
 }
 
 @media screen and (max-width: 660px) {
   .poster {
-    height: 650px !important;
-    .black-layer {
+    height: 650px;
+    .poster-desc {
       .about-text-1 p {
-        font-size: 100px !important;
-        line-height: 100px !important;
-        letter-spacing: 9px !important;
+        font-size: 100px;
+        line-height: 100px;
+        letter-spacing: 9px;
       }
-      .width64 {
-        width: 80%;
+      .about-us-e {
+        font-size: 22px;
+      }
+      .about-text-2e p {
+        width: 454px;
         font-size: 20px;
-        line-height: 30px;
+        line-height: 35px;
+        margin-top: 70px;
       }
-      .fsN p {
-        font-size: 55px !important;
-        line-height: 100px !important;
+
+      .about-text-1e p {
+        font-size: 8rem;
+        line-height: 90px;
       }
+    }
+    .width64 {
+      width: 80%;
+      font-size: 20px;
+      line-height: 30px;
+    }
+    .fsN p {
+      font-size: 55px !important;
+      line-height: 100px !important;
     }
   }
 }
 @media screen and (max-width: 500px) {
   .poster {
-    height: 600px !important;
-    .black-layer {
+    height: 600px;
+    .poster-desc {
+      .about-us-e {
+        font-size: 19px;
+      }
+      .about-text-2e p {
+        width: 365px;
+        font-size: 17px;
+        line-height: 27px;
+        margin-top: 58px;
+      }
+
+      .about-text-1e p {
+        font-size: 6rem;
+        line-height: 60px;
+      }
       .about-us {
-        font-size: 25px !important;
+        font-size: 25px;
       }
       .lines {
-        width: 40px !important;
+        width: 40px;
       }
       .about-text-1 p {
-        font-size: 80px !important;
-        line-height: 90px !important;
-        letter-spacing: 6px !important;
-      }
-      .width64 {
-        font-size: 18px;
-        line-height: 30px;
-      }
-      .fsN p {
-        font-size: 45px !important;
-        line-height: 80px !important;
+        font-size: 80px;
+        line-height: 90px;
+        letter-spacing: 6px;
       }
       .about-text-2 p {
         line-height: 55px;
         font-size: 25px;
       }
     }
+    .width64 {
+      font-size: 18px;
+      line-height: 30px;
+    }
+    .fsN p {
+      font-size: 45px !important;
+      line-height: 80px !important;
+    }
   }
 }
 @media screen and (max-width: 400px) {
   .poster {
-    height: 480px !important;
-    .black-layer {
+    height: 480px;
+    .poster-desc {
+      .about-us-e {
+        font-size: 15px;
+      }
+      .about-text-2e p {
+        width: 269px;
+        font-size: 12px;
+        line-height: 23px;
+        margin-top: 47px;
+      }
+
+      .about-text-1e p {
+        font-size: 4rem;
+        line-height: 40px;
+      }
       .about-us {
-        font-size: 20px !important;
+        font-size: 20px;
       }
       .lines {
-        width: 30px !important;
+        width: 30px;
       }
       .about-text-1 p {
-        font-size: 65px !important;
-        line-height: 70px !important;
-        letter-spacing: 4px !important;
+        font-size: 65px;
+        line-height: 70px;
+        letter-spacing: 4px;
       }
       .about-text-2 p {
         line-height: 40px;
         font-size: 18px;
       }
+    }
+    .fsN p {
+      font-size: 40px !important;
+      line-height: 70px !important;
+    }
+    .width64 {
+      font-size: 14px;
+      line-height: 20px;
     }
   }
 }

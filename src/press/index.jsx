@@ -14,7 +14,7 @@ const posterData = [
       Over the last decade, their award-winning work has been featured in People, Martha Stewart Weddings, Harper’s BAZAAR, Vogue, BRIDES, iHeart Radio, The Knot, Style Me Pretty, and more. Le Rêve Films has captured events and created content for clients like DJ Tiesto, Ashley and Jared from the Bachelor Nation, Engage!, The Knot, Marcy Blum Associates, Kleinfeld Bridal, and other high-profile celebrities, musicians, and athlete`,
   },
   {
-    cl0: "poster height80",
+    cl0: "poster",
     cl1: "poster-desc",
     cl2: "about-us",
     cl3: "about-text-1s fsN",

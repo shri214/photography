@@ -14,21 +14,22 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    p {
+    p,
+    .about-heading {
       font-size: 125px;
       line-height: 100px;
       font-family: gustera;
       text-align: center;
     }
     .para4 {
-      width: 68% !important;
-      display: block !important;
-      margin: auto !important;
-      margin-top: 84px !important;
+      width: 500px;
+      display: block;
+      margin: auto;
+      margin-top: 84px;
       p {
-        font-family: Regular !important;
-        font-size: 23px !important;
-        line-height: 30px !important;
+        font-family: aRegular;
+        font-size: 25px;
+        line-height: 40px;
       }
     }
     div {
@@ -49,20 +50,28 @@
       }
     }
   }
-  //   .fix{
-  //     border: 1px solid red;
-  //   }
 }
-
-
-
-
 
 // mobile style
 
-@media screen and (max-width:1200px) {
-  .poster2{
+@media screen and (max-width: 1200px) {
+  .poster2 {
     height: 580px;
+    .poster2-desc {
+      p,
+      .about-heading {
+        font-size: 107px;
+        line-height: 85px;
+      }
+      .para4 {
+        width: 450px;
+        margin-top: 70px;
+        p {
+          font-size: 22px;
+          line-height: 35px;
+        }
+      }
+    }
   }
 }
 
@@ -70,13 +79,18 @@
   .poster2 {
     height: 500px;
     .poster2-desc {
-      p {
+      p,
+      .about-heading {
         font-size: 100px;
         line-height: 75px;
       }
-      .para4 p {
-        font-size: 20px !important;
-        line-height: 27px !important;
+      .para4 {
+        width: 400px;
+        margin-top: 50px;
+        p {
+          font-size: 20px;
+          line-height: 27px;
+        }
       }
     }
   }
@@ -85,21 +99,23 @@
   .poster2 {
     height: 470px;
     .poster2-desc {
-      p {
+      p,
+      .about-heading {
         font-size: 90px;
         line-height: 70px;
       }
       .para4 {
-        width: 80% !important;
+        width: 350px;
+        margin-top: 40px;
         p {
-          font-size: 18px !important;
-          line-height: 25px !important;
+          font-size: 17px;
+          line-height: 24px;
         }
       }
-    }
-    div .contactUs {
-      font-size: 10px ;
-      font-weight: 600 !important;
+      div .contactUs {
+        font-size: 10px;
+        font-weight: 600;
+      }
     }
   }
 }
@@ -107,38 +123,109 @@
 @media screen and (max-width: 800px) {
   .poster2 {
     height: 460px;
-    .poster2-desc p {
-      font-size: 90px;
-      line-height: 100px;
+
+    .poster2-desc {
+      p {
+        font-size: 110px;
+        line-height: 110px;
+        width: 500px;
+      }
+      .para4 {
+        width: 430px;
+        p {
+          font-size: 21px;
+          line-height: 41px;
+        }
+      }
+      .about-heading {
+        font-size: 130px;
+        line-height: 135px;
+      }
+      div .contactUs {
+        font-size: 19px;
+      }
     }
-    div .contactUs {
-      font-size: 19px;
-  }
   }
 }
 @media screen and (max-width: 700px) {
   .poster2 {
-    .poster2-desc p {
-      font-size: 79px;
-    line-height: 74px;
+    .poster2-desc {
+      p {
+        font-size: 100px;
+        line-height: 90px;
+        width: 430px;
+      }
+      .para4 {
+        width: 400px;
+        p {
+          font-size: 18px;
+          line-height: 22px;
+        }
+      }
+      .about-heading {
+        font-size: 105px;
+        line-height: 100px;
+      }
+      div .contactUs {
+        font-size: 16px;
+      }
     }
-    div .contactUs {
-      font-size: 16px;
-  }
   }
 }
-@media screen and (max-width: 520px) {
+
+@media screen and (max-width: 600px) {
   .poster2 {
     .poster2-desc {
-      width: 80%;
       p {
-        font-size: 70px ;
-        line-height: 70px ;
-        letter-spacing: 5px;
+        font-size: 80px;
+        line-height: 70px;
+        width: 370px;
       }
-      .para4{
-        p{
-          letter-spacing: 0px !important;
+      .para4 {
+        width: 350px;
+        p {
+          font-size: 15px;
+          line-height: 17px;
+        }
+      }
+      .about-heading {
+        font-size: 90px;
+        line-height: 90px;
+      }
+      div {
+        width: 350px;
+        .contactUs {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .poster2 {
+    .poster2-desc {
+      p {
+        font-size: 75px;
+        line-height: 70px;
+        width: 300px;
+        letter-spacing: 4px;
+      }
+      .para4 {
+        width: 300px;
+        p {
+          font-size: 13px;
+          line-height: 15px;
+          letter-spacing: 1px;
+        }
+      }
+      .about-heading {
+        font-size: 75px;
+        line-height: 75px;
+      }
+      div {
+        width: 300px;
+        .contactUs {
+          font-size: 14px;
         }
       }
     }

@@ -9,7 +9,9 @@ export const Poster2 = ({ data }) => {
       <div
         className={data.clFix ? `poster2-desc ${data.clFix}` : "poster2-desc"}
       >
-        <p>{data.para1} </p>
+        <p
+        className={data.clName ? data.clName :""}
+        >{data.para1} </p>
         {<p>{data.para2}</p>}
         {data.para4 && (
           <div className="para4">
