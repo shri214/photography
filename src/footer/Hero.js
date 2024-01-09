@@ -5,8 +5,8 @@ import {
   ArrowRightOutlined,
   MenuFoldOutlined,
 } from "@ant-design/icons";
-import Logo1 from "../images/logo.png";
-import Logo2 from "../images/logo2.png";
+import Logo1 from "../images/Logos.jpg";
+import Logo2 from "../images/Logos.jpg";
 import "./hero.scss";
 
 import { useSharedContext } from "../provider";

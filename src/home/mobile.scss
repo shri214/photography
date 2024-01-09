@@ -13,13 +13,10 @@
       width: 1175px !important;
     }
     .posters {
+      height: 560px !important;
     }
     .photo-container {
       width: 1175px !important;
-    }
-    .photo-desc {
-    }
-    .home-about {
     }
   }
 }
@@ -87,16 +84,17 @@
     .home-text-btn {
       width: 975px !important;
     }
+    .posters{
+      height: 540px !important;
+    }
 
     .photo-container {
       width: 975px !important;
-      height: 600px;
+      height: 600px !important;
       .img4 {
         top: 15px;
         left: 19%;
       }
-    }
-    .photo-desc {
     }
     .home-about {
       width: 975px !important;
@@ -174,7 +172,7 @@
       }
     }
     .posters {
-      height: 70vh !important;
+      height: 520px !important;
     }
     .photo-container {
       width: 875px !important;
@@ -280,12 +278,12 @@
       }
     }
     .posters {
-      height: 65vh !important;
+      height: 500px !important;
     }
 
     .photo-container {
       width: 775px !important;
-      height: 540px;
+      height: 540px !important;
       .img4 {
         left: 16% !important;
         top: 6px !important;
@@ -494,13 +492,10 @@
         font-size: 23px;
       }
     }
-    .posters {
-      height: 65vh !important;
-    }
 
     .photo-container {
       width: 100% !important;
-      height: 500px;
+      height: 500px !important;
       overflow: hidden;
       .img1,
       .img3 {
@@ -630,14 +625,22 @@
         font-size: 20px !important;
       }
     }
+    .posters{
+      height: 450px !important;
+    }
 
     .photo-container {
-      height: 400px;
+      height: 400px !important;
       .img4 {
         top: 20px !important;
         left: 20px !important;
         p {
           line-height: 56px !important;
+        }
+      }
+      .img2{
+        img{
+          object-position: -190px !important;
         }
       }
     }
@@ -728,14 +731,14 @@
       }
     }
     .photo-container {
-      height: 290px;
+      height: 290px !important;
       .img4 {
         left: -15px !important;
-        // width: 250px !important;
-        // p{
-        //   font-size: 5rem;
-        //   line-height: 40px !important;
-        // }
+      }
+      .img2{
+        img{
+          object-position: -150px !important;
+        }
       }
     }
   }
