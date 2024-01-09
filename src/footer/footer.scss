@@ -113,8 +113,8 @@
     .step1 {
       font-size: 18px;
     }
-    .image-outer-container{
-      .images-container{
+    .image-outer-container {
+      .images-container {
         width: 1100px;
       }
     }
@@ -185,19 +185,24 @@
         }
       }
     }
-    .images-container {
-      flex-direction: row;
-      flex-wrap: wrap;
+    .image-outer-container {
       height: auto;
-      .img-boxes {
-        width: 50%;
-        height: 40vh;
-        img {
-          object-fit: cover;
+      .images-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        .img-boxes {
+          width: 50%;
+          height: 300px;
+          img {
+            object-fit: cover;
+          }
         }
-      }
-      .hides {
-        display: none;
+        .hides {
+          display: none;
+        }
       }
     }
     .bottom-text {

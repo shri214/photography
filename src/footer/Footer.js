@@ -73,10 +73,10 @@ export const Footer = () => {
       </div>
       <div className="image-outer-container">
         <div className="images-container">
-          <div className="img-boxes abFirst">
+          <div className="img-boxes abFirst hides">
             <img src={One} alt="one" />
           </div>
-          <div className="img-boxes abSecond">
+          <div className="img-boxes">
             <img src={Car} alt="car" />
           </div>
           <div className="img-boxes">
@@ -85,7 +85,7 @@ export const Footer = () => {
           <div className="img-boxes">
             <img src={Cam4} alt="four" />
           </div>
-          <div className="img-boxes hides">
+          <div className="img-boxes">
             <img src={Three} alt="three" />
           </div>
           <div className="img-boxes hides abLastSec">
